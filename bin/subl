@@ -1,0 +1,5 @@
+if [ -d "${HOME}/Applications/Sublime Text 2.app" ]; then
+	"${HOME}/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" $*
+elif [ -d "/Applications/Sublime Text 2.app" ]; then
+	"/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" $*
+fi
