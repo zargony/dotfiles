@@ -1,0 +1,30 @@
+[user]
+	name = Andreas Neuhaus
+	email = zargony@zargony.com
+[core]
+	attributesfile = ~/.gitattributes
+	excludesfile = ~/.gitignore
+	#editor = subl -n -w
+[pack]
+	threads = 0
+[gc]
+	packrefs = false
+[color]
+	ui = auto
+[alias]
+	br = branch
+	ci = commit
+	co = checkout
+	st = status
+[diff]
+	tool = opendiff
+[merge]
+	tool = opendiff
+[diff "utf16diff"]
+	textconv = iconv -f utf-16 -t utf-8
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
