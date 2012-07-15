@@ -1,0 +1,12 @@
+autotest
+autotest-fsevent
+autotest-growl
+autotest-rails-pure
+bundler
+gemedit
+guard
+guard-rspec
+heroku
+pry
+rake
+wirble
