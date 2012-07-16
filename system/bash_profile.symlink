@@ -7,6 +7,7 @@ export HISTCONTROL=erasedups
 export LESS='-i -m -R'
 export GREP_OPTIONS='--color=auto'
 export GEMEDITOR='subl -n'
+export PATH=$HOME/bin:$PATH
 
 alias l='ls -la'
 alias ri='ri -f ansi'
