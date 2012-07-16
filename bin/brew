@@ -1,0 +1,5 @@
+if [ -x "${HOME}/.homebrew/bin/brew" ]; then
+	"${HOME}/.homebrew/bin/brew" $*
+elif [ -x "/usr/local/bin/brew" ]; then
+	"/usr/local/bin/brew" $*
+fi
