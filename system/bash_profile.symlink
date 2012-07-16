@@ -14,12 +14,15 @@ alias ri='ri -f ansi'
 alias pwdc='pwd |pbcopy'
 
 # Homebrew - http://github.com/mxcl/homebrew
-if [ -n "`which brew`" ]; then
-	export PATH=`brew --prefix`/bin:`brew --prefix`/sbin:$PATH
-	. `brew --prefix`/etc/bash_completion
+BREW=$(PATH=~/.homebrew/bin:/usr/local/bin:/opt/homebrew /usr/bin/which brew)
+if [ -n "$BREW" ]; then
+	HOMEBREW=$($BREW --prefix)
+	export PATH=$HOMEBREW/bin:$HOMEBREW/sbin:$PATH
+	. $HOMEBREW/etc/bash_completion
 fi
+unset BREW HOMEBREW
 
 # Rbenv - https://github.com/sstephenson/rbenv
-if [ -n "`which rbenv`" ]; then
+if [ -n "$(which rbenv)" ]; then
 	eval "$(rbenv init -)"
 fi
