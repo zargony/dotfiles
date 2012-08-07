@@ -2,11 +2,10 @@
 export PS1='\[\033[00;32m\]\u\[\033[00m\]@\[\033[00;36m\]\h\[\033[01m\]:\[\033[00;35m\]\w\[\033[00m\]\[\033[01;33m\]$(__git_ps1 " %s")\[\033[00m\]\$ '
 export CLICOLOR=1
 #export LSCOLORS="gxfxcxdxbxegedabagacad"
-export EDITOR='subl -w'
+export EDITOR='subl -n'
 export HISTCONTROL=erasedups
 export LESS='-i -m -R'
 export GREP_OPTIONS='--color=auto'
-export GEMEDITOR='subl -n'
 export PATH=$HOME/bin:$PATH
 
 alias l='ls -la'
