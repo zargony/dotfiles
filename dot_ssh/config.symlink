@@ -1,0 +1,37 @@
+Compression yes
+#CompressionLevel 6
+ControlMaster auto
+ControlPath ~/.ssh/master-%r@%h:%p
+#ForwardAgent yes
+#ForwardX11 yes
+#ForwardX11Trusted yes
+HashKnownHosts no
+ServerAliveInterval 60
+UserKnownHostsFile /dev/null ~/.ssh/known_hosts
+
+Host ariadne belana callisto
+HostName %h.rz.zargony.com
+User root
+
+Host janus
+HostName callisto.rz.zargony.com
+Port 22210
+User root
+
+Host rhea
+HostName callisto.rz.zargony.com
+Port 22220
+User root
+
+Host git.zargony.com
+HostName callisto.rz.zargony.com
+Port 22220
+
+Host storage
+HostName zargony.ath.cx
+Port 2222
+User root
+
+Host *.amazonaws.com
+IdentityFile ~/.ssh/ec2.pem
+User root
