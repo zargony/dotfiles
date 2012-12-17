@@ -16,7 +16,7 @@ alias pwdc='pwd |pbcopy'
 BREW=$(PATH=~/.homebrew/bin:/usr/local/bin:/opt/homebrew /usr/bin/which brew)
 if [ -n "$BREW" ]; then
 	HOMEBREW=$($BREW --prefix)
-	export PATH=$HOMEBREW/bin:$HOMEBREW/sbin:$PATH
+	export PATH=$HOMEBREW/bin:$HOMEBREW/sbin:$HOMEBREW/share/npm/bin:$PATH
 	. $HOMEBREW/etc/bash_completion
 fi
 unset BREW HOMEBREW
