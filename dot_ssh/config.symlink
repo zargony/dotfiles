@@ -31,6 +31,8 @@ Host storage
 HostName zargony.ath.cx
 Port 2222
 User root
+LocalForward 5000 storage:5000
+LocalForward 8080 fritz.box:80
 
 Host *.amazonaws.com
 IdentityFile ~/.ssh/ec2.pem
