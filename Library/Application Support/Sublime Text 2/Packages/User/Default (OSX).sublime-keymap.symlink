@@ -1,0 +1,5 @@
+[
+	{ "keys": ["super+ö"], "command": "prev_view" },
+	{ "keys": ["super+ä"], "command": "next_view" },
+	{ "keys": ["super+^"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
+]
