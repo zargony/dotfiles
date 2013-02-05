@@ -1,44 +1,48 @@
 require 'pathname'
 
-def dotfiles
-  Dir.chdir(File.expand_path('..', __FILE__)) do
-    Dir.glob('**/*.symlink') do |to|
-      from = to.gsub(/dot_/, '.').gsub(/\.symlink$/, '')
-      yield(File.join(Dir.home, from), File.join(Dir.pwd, to))
+BASEDIR = Pathname.new(__FILE__).dirname
+HOMEDIR = Pathname.new(Dir.home)
+
+def dotfiles (basedir = BASEDIR, subdir = '', &block)
+  basedir = Pathname.new(basedir) unless basedir.is_a?(Pathname)
+  subdir = Pathname.new(subdir) unless subdir.is_a?(Pathname)
+  Pathname.glob(basedir + subdir + '{.*,*}') do |file|
+    next if ['.', '..', '.git', '.DS_Store', 'Rakefile'].include?(file.basename.to_s)
+    relfile = file.relative_path_from(basedir)
+    if file.directory? && !(file + '.symlink').exist?
+      dotfiles(basedir, relfile, &block)
+    else
+      yield(HOMEDIR + relfile, basedir + relfile)
     end
   end
 end
 
 desc 'Hook our dotfiles into system-standard positions.'
 task :install do
-  def relpath (from, to)
-    Pathname.new(to).relative_path_from(Pathname.new(from))
-  end
-
-  dotfiles do |from, to|
-    fromdir = File.dirname(from)
-    if (!File.exist?(fromdir))
-      puts "Creating #{fromdir}"
-      Dir.mkdir(fromdir)
+  dotfiles do |target, source|
+    if !target.dirname.exist?
+      puts "Creating #{target.dirname}"
+      target.dirname.mkpath
     end
-    to = relpath(File.dirname(from), to)
-    File.delete(from) if File.symlink?(from)
-    if File.exist?(from)
-      puts "Not overwriting existing file: #{from}"
+    target.delete if target.symlink?
+    if target.exist?
+      puts "NOT overwriting existing file: #{target}"
     else
-      puts "Setting up #{from}"
-      File.symlink(to, from)
+      puts "Setting up #{target}"
+      target.make_symlink(source.relative_path_from(target.dirname))
     end
   end
 end
 
 desc 'Remove all symbolically linked dotfiles'
 task :uninstall do
-  dotfiles do |from, to|
-    if !File.symlink?(from)
-      puts "Not deleting file: #{from}"
+  dotfiles do |target, source|
+    next unless target.exist?
+    if !target.symlink?
+      puts "NOT removing file: #{target}"
     else
-      File.delete(from)
+      puts "Removing #{target}"
+      target.delete
     end
   end
 end
