@@ -16,6 +16,8 @@
 	ci = commit
 	co = checkout
 	st = status
+[push]
+	default = upstream
 [diff]
 	tool = opendiff
 [merge]
