@@ -7,7 +7,7 @@ def dotfiles (basedir = BASEDIR, subdir = '', &block)
   basedir = Pathname.new(basedir) unless basedir.is_a?(Pathname)
   subdir = Pathname.new(subdir) unless subdir.is_a?(Pathname)
   Pathname.glob(basedir + subdir + '{.*,*}') do |file|
-    next if ['.', '..', '.git', '.DS_Store', 'Rakefile'].include?(file.basename.to_s)
+    next if ['.', '..', '.git', '.DS_Store', 'Rakefile', 'README.md'].include?(file.basename.to_s)
     relfile = file.relative_path_from(basedir)
     if file.directory? && !(file + '.symlink').exist?
       dotfiles(basedir, relfile, &block)
