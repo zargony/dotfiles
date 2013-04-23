@@ -1,2 +1,2 @@
---all
+--ignore-dir=tmp
 --ignore-dir=vendor
