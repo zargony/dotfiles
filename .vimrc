@@ -1,6 +1,6 @@
 syntax on
 set background=dark
-colorscheme elflord
+colorscheme zenburn
 set showcmd showmatch
 set nowrap
 set ignorecase smartcase hlsearch
