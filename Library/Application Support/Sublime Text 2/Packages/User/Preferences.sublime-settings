@@ -20,7 +20,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 12,
+	"font_size": 12.0,
 	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
