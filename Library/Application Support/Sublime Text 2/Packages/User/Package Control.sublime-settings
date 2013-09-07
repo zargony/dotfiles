@@ -1,0 +1,19 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"CoffeeScript",
+		"ColorPicker",
+		"Git",
+		"Haml",
+		"JsFormat",
+		"LoremIpsum",
+		"MakeCommands",
+		"Markdown Preview",
+		"Package Control",
+		"Puppet",
+		"Rust",
+		"SCSS",
+		"TrailingSpaces"
+	]
+}
