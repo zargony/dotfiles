@@ -1,0 +1,15 @@
+{
+	"installed_packages":
+	[
+		"ColorPicker",
+		"Git",
+		"Haml",
+		"JsFormat",
+		"Markdown Preview",
+		"Placeholders",
+		"Puppet",
+		"Rust",
+		"SCSS",
+		"TrailingSpaces"
+	]
+}
