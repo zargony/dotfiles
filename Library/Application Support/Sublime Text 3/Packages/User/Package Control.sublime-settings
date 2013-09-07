@@ -3,6 +3,7 @@
 	[
 		"ColorPicker",
 		"Git",
+		"GitGutter",
 		"Haml",
 		"JsFormat",
 		"Markdown Preview",

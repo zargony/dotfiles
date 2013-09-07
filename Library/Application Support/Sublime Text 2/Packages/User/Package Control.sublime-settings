@@ -5,6 +5,7 @@
 		"CoffeeScript",
 		"ColorPicker",
 		"Git",
+		"GitGutter",
 		"Haml",
 		"JsFormat",
 		"LoremIpsum",
