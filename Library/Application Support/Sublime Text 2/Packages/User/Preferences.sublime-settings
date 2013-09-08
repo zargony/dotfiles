@@ -15,12 +15,12 @@
 		".bundle",
 		"_site"
 	],
-	"font_face": "Menlo",
+	"font_face": "Ubuntu Mono",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 12.0,
+	"font_size": 14.0,
 	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
