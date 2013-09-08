@@ -1,7 +1,7 @@
 {
-    "always_show_minimap_viewport": true,
+	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
-    "bold_folder_labels": true,
+	"bold_folder_labels": true,
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/Smyck.tmTheme",
 	"create_window_at_startup": false,
