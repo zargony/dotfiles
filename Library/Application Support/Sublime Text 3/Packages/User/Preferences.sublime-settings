@@ -1,33 +1,18 @@
 {
+    "always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
+    "bold_folder_labels": true,
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/Smyck.tmTheme",
 	"create_window_at_startup": false,
 	"drag_text": false,
 	"draw_white_space": "selection",
-	"ensure_newline_at_eof_on_save": true,
-	"folder_exclude_patterns":
-	[
-		".svn",
-		".git",
-		".hg",
-		"CVS",
-		".bundle",
-		"_site"
-	],
+	"folder_exclude_patterns": [ ".svn", ".git", ".hg", "CVS", ".bundle", "_site" ],
 	"font_face": "Menlo",
-	"font_options":
-	[
-		"subpixel_antialias"
-	],
+	"font_options": [ "subpixel_antialias" ],
 	"font_size": 12.0,
 	"gutter": true,
 	"highlight_line": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"indent_subsequent_lines": false,
 	"line_numbers": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
