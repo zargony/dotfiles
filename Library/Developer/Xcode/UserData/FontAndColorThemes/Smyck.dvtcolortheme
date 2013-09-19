@@ -5,23 +5,23 @@
 	<key>DVTConsoleDebuggerInputTextColor</key>
 	<string>0.972549 0.972549 0.972549 1</string>
 	<key>DVTConsoleDebuggerInputTextFont</key>
-	<string>UbuntuMono-Bold - 13.0</string>
+	<string>FiraMonoOT-Bold - 11.0</string>
 	<key>DVTConsoleDebuggerOutputTextColor</key>
 	<string>0.972549 0.972549 0.972549 1</string>
 	<key>DVTConsoleDebuggerOutputTextFont</key>
-	<string>UbuntuMono-Regular - 13.0</string>
+	<string>FiraMonoOT - 11.0</string>
 	<key>DVTConsoleDebuggerPromptTextColor</key>
 	<string>0.780392 0.337255 0.27451 1</string>
 	<key>DVTConsoleDebuggerPromptTextFont</key>
-	<string>UbuntuMono-Bold - 13.0</string>
+	<string>FiraMonoOT-Bold - 11.0</string>
 	<key>DVTConsoleExectuableInputTextColor</key>
 	<string>0.972549 0.972549 0.972549 1</string>
 	<key>DVTConsoleExectuableInputTextFont</key>
-	<string>UbuntuMono-Regular - 13.0</string>
+	<string>FiraMonoOT - 11.0</string>
 	<key>DVTConsoleExectuableOutputTextColor</key>
 	<string>0.972549 0.972549 0.972549 1</string>
 	<key>DVTConsoleExectuableOutputTextFont</key>
-	<string>UbuntuMono-Bold - 13.0</string>
+	<string>FiraMonoOT-Bold - 11.0</string>
 	<key>DVTConsoleTextBackgroundColor</key>
 	<string>0.149 0.149 0.149 1</string>
 	<key>DVTConsoleTextInsertionPointColor</key>
@@ -92,51 +92,51 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.character</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>UbuntuMono-Italic - 14.0</string>
+		<string>Menlo-Italic - 12.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>UbuntuMono-Italic - 14.0</string>
+		<string>Menlo-Italic - 12.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>UbuntuMono-Italic - 14.0</string>
+		<string>Menlo-Italic - 12.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>UbuntuMono-Bold - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>UbuntuMono-Bold - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>UbuntuMono-Bold - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>UbuntuMono-Bold - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>UbuntuMono-Bold - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>UbuntuMono-Bold - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.number</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.string</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 		<key>xcode.syntax.url</key>
-		<string>UbuntuMono-Regular - 14.0</string>
+		<string>FiraMonoOT - 12.0</string>
 	</dict>
 </dict>
 </plist>
