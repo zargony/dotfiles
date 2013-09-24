@@ -6,7 +6,6 @@ bundler
 gemedit
 guard
 guard-rspec
-heroku
 pry
 rake
 wirble
