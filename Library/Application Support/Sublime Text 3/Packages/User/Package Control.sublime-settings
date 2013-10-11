@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"ColorPicker",
+		"Dotfiles Syntax Highlighting",
 		"Git",
 		"GitGutter",
 		"Haml",
@@ -12,6 +13,7 @@
 		"Puppet",
 		"Rust",
 		"SCSS",
+		"Sublimerge Pro",
 		"TrailingSpaces"
 	]
 }
