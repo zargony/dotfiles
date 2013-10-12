@@ -10,8 +10,8 @@ set ignorecase smartcase hlsearch
 "set smarttab shiftwidth=2
 
 if has("autocmd")
-  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-  filetype plugin indent on
+	au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+	filetype plugin indent on
 endif
 
 "au BufNewFile,BufRead *.erb set syntax=eruby
