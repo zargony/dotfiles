@@ -4,6 +4,7 @@
 [core]
 	attributesfile = ~/.gitattributes
 	excludesfile = ~/.gitignore
+	quotepath = false
 	#editor = subl -n -w
 [pack]
 	threads = 0
