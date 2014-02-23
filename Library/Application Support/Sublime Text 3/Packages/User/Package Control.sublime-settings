@@ -3,6 +3,7 @@
 	[
 		"ColorPicker",
 		"CTags",
+		"Dockerfile Syntax Highlighting",
 		"Dotfiles Syntax Highlighting",
 		"Git",
 		"GitGutter",
