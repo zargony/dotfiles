@@ -8,6 +8,8 @@
  * http://www.lesscss.org
  */
 
+@import "ui-variables";
+
 .tree-view {
 }
 
@@ -18,9 +20,8 @@
 }
 
 // Highlight the current line in the editor window, not just in the gutter
-// FIXME: This should use syntax-variables, but they don't seem to work here
 .editor .line.cursor-line {
-    background: rgba(255, 255, 255, 0.14);
+    background: lighten(@base-background-color, 5%);
 }
 
 // Show invisible characters on the cursor line only
