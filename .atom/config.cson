@@ -1,13 +1,13 @@
 'release-notes':
-  'viewedVersion': '0.67.0'
+  'viewedVersion': '0.69.0'
 'editor':
   'fontSize': 12
   'fontFamily': 'Fira Mono OT'
   'showInvisibles': true
-  'softTabs': false
-  'tabLength': 4
   'softWrap': true
   'showIndentGuide': true
+  'tabLength': 4
+  'softTabs': false
 'core':
   'themes': [
     'atom-dark-ui'
