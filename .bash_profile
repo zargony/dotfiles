@@ -2,7 +2,7 @@
 export PS1='\[\033[00;32m\]\u\[\033[00m\]@\[\033[00;36m\]\h\[\033[01m\]:\[\033[00;35m\]\w\[\033[00m\]\[\033[01;33m\]$(__git_ps1 " %s")\[\033[00m\]\$ '
 export CLICOLOR=1
 #export LSCOLORS="gxfxcxdxbxegedabagacad"
-export EDITOR='subl -n -w'
+export EDITOR='atom -n -w'
 export HISTCONTROL=erasedups
 export LESS='-i -m -R'
 export GREP_OPTIONS='--color=auto'
