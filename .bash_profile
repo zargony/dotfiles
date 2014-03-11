@@ -12,14 +12,20 @@ alias l='ls -la'
 alias ri='ri -f ansi'
 alias pwdc='pwd |pbcopy'
 
-# Homebrew - http://github.com/mxcl/homebrew
+# Homebrew - http://brew.sh/
 BREW=$(PATH=~/.homebrew/bin:/usr/local/bin:/opt/homebrew /usr/bin/which brew)
 if [ -n "$BREW" ]; then
 	HOMEBREW=$($BREW --prefix)
-	export PATH=$HOMEBREW/bin:$HOMEBREW/sbin:$HOMEBREW/share/npm/bin:$PATH
+	export PATH=$HOMEBREW/bin:$HOMEBREW/sbin:$PATH
+
+	# Bash-completion
 	. $HOMEBREW/etc/bash_completion
+
+	# Node.js
+	export PATH=$HOMEBREW/share/npm/bin:$PATH
+
+	# Rbenv and ruby-build
+	export RBENV_ROOT=$HOMEBREW/share/rbenv
+	which rbenv >/dev/null && eval "$(rbenv init -)"
 fi
 unset BREW HOMEBREW
-
-# Rbenv - https://github.com/sstephenson/rbenv
-which rbenv >/dev/null && eval "$(rbenv init -)"
