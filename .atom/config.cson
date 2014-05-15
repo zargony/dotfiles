@@ -1,5 +1,5 @@
 'release-notes':
-  'viewedVersion': '0.80.0'
+  'viewedVersion': '0.94.0'
 'editor':
   'fontSize': 12
   'fontFamily': 'Fira Mono OT'
@@ -12,11 +12,6 @@
   'themes': [
     'atom-dark-ui'
     'atom-dark-syntax'
-  ]
-  'ignoredNames': [
-    '.git'
-    '.svn'
-    '.DS_Store'
   ]
   'projectHome': '/Users/zargony/Projects'
   'disabledPackages': [
