@@ -1,8 +1,8 @@
 'release-notes':
   'viewedVersion': '0.94.0'
 'editor':
-  'fontSize': 12
-  'fontFamily': 'Fira Mono OT'
+  'fontSize': 13
+  'fontFamily': 'Fantasque Sans Mono'
   'showInvisibles': true
   'softWrap': true
   'showIndentGuide': true
@@ -11,7 +11,7 @@
 'core':
   'themes': [
     'atom-dark-ui'
-    'atom-dark-syntax'
+    'atom-smyck'
   ]
   'projectHome': '/Users/zargony/Projects'
   'disabledPackages': [
@@ -19,6 +19,7 @@
     'exception-reporting'
     'welcome'
   ]
+  'useReactEditor': true
 'spell-check':
   'grammars': [
     'source.gfm'

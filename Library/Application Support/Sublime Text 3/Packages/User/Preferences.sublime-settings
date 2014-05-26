@@ -16,12 +16,12 @@
 		".bundle",
 		"_site"
 	],
-	"font_face": "Fira Mono OT",
+	"font_face": "Fantasque Sans Mono",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 12.0,
+	"font_size": 13.0,
 	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
