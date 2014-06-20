@@ -5,23 +5,23 @@
 	<key>DVTConsoleDebuggerInputTextColor</key>
 	<string>1 0.824232 0.606024 1</string>
 	<key>DVTConsoleDebuggerInputTextFont</key>
-	<string>FantasqueSansMono-Bold - 11.0</string>
+	<string>FantasqueSansMono-Bold - 12.0</string>
 	<key>DVTConsoleDebuggerOutputTextColor</key>
 	<string>1 0.824232 0.606024 1</string>
 	<key>DVTConsoleDebuggerOutputTextFont</key>
-	<string>FantasqueSansMono-Regular - 11.0</string>
+	<string>FantasqueSansMono-Regular - 12.0</string>
 	<key>DVTConsoleDebuggerPromptTextColor</key>
 	<string>0.714 0.178074 0.170326 1</string>
 	<key>DVTConsoleDebuggerPromptTextFont</key>
-	<string>FantasqueSansMono-Bold - 11.0</string>
+	<string>FantasqueSansMono-Bold - 12.0</string>
 	<key>DVTConsoleExectuableInputTextColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTConsoleExectuableInputTextFont</key>
-	<string>FantasqueSansMono-Regular - 11.0</string>
+	<string>FantasqueSansMono-Regular - 12.0</string>
 	<key>DVTConsoleExectuableOutputTextColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTConsoleExectuableOutputTextFont</key>
-	<string>FantasqueSansMono-Bold - 11.0</string>
+	<string>FantasqueSansMono-Bold - 12.0</string>
 	<key>DVTConsoleTextBackgroundColor</key>
 	<string>0.132316 0.132337 0.132309 1</string>
 	<key>DVTConsoleTextInsertionPointColor</key>
@@ -92,9 +92,9 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.character</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.comment</key>
 		<string>FantasqueSansMono-RegItalic - 13.0</string>
 		<key>xcode.syntax.comment.doc</key>
@@ -102,41 +102,41 @@
 		<key>xcode.syntax.comment.doc.keyword</key>
 		<string>FantasqueSansMono-RegItalic - 13.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>FantasqueSansMono-Bold - 13.0</string>
+		<string>FantasqueSansMono-Bold - 14.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>FantasqueSansMono-Bold - 13.0</string>
+		<string>FantasqueSansMono-Bold - 14.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>FantasqueSansMono-Bold - 13.0</string>
+		<string>FantasqueSansMono-Bold - 14.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>FantasqueSansMono-Bold - 13.0</string>
+		<string>FantasqueSansMono-Bold - 14.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>FantasqueSansMono-Bold - 13.0</string>
+		<string>FantasqueSansMono-Bold - 14.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>FantasqueSansMono-Bold - 13.0</string>
+		<string>FantasqueSansMono-Bold - 14.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.number</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.string</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 		<key>xcode.syntax.url</key>
-		<string>FantasqueSansMono-Regular - 13.0</string>
+		<string>FantasqueSansMono-Regular - 14.0</string>
 	</dict>
 </dict>
 </plist>
