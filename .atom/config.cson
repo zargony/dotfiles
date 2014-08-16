@@ -1,28 +1,18 @@
-'release-notes':
-  'viewedVersion': '0.94.0'
 'editor':
   'fontSize': 13
   'fontFamily': 'Fantasque Sans Mono'
-  'showInvisibles': true
-  'softWrap': true
   'showIndentGuide': true
+  'showInvisibles': true
   'softTabs': false
+  'softWrap': true
   'tabLength': 4
 'core':
   'themes': [
     'atom-dark-ui'
     'atom-smyck'
   ]
-  'projectHome': '/Users/zargony/Projects'
   'disabledPackages': [
     'metrics'
     'exception-reporting'
     'welcome'
-  ]
-  'useReactEditor': true
-'spell-check':
-  'grammars': [
-    'source.gfm'
-    'text.git-commit'
-    'text.plain'
   ]
