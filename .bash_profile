@@ -6,8 +6,14 @@ export EDITOR='subl -n -w'
 export HISTCONTROL=erasedups
 export LESS='-i -m -R'
 export GREP_OPTIONS='--color=auto'
+
+# Add private bin directory to search paths
 export PATH=$HOME/bin:$PATH
 
+# Point docker client to local host
+export DOCKER_HOST=tcp://127.0.0.1:2375
+
+# Useful aliases
 alias l='ls -la'
 alias ri='ri -f ansi'
 alias pwdc='pwd |pbcopy'
