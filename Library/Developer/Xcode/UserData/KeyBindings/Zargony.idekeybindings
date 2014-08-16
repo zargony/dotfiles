@@ -8,26 +8,6 @@
 		<array>
 			<dict>
 				<key>Action</key>
-				<string>useSelectionForFind:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.UseSelectionForFind</string>
-				<key>Group</key>
-				<string>Edit Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Find</string>
-				<key>Title</key>
-				<string>Use Selection for Find</string>
-			</dict>
-			<dict>
-				<key>Action</key>
 				<string>editActiveRunContext:</string>
 				<key>Alternate</key>
 				<string>NO</string>
@@ -39,10 +19,10 @@
 				<string>Xcode.IDEKit.MenuDefinition.Main</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>@e</string>
 				<key>Navigation</key>
 				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Scheme</string>
 				<key>Title</key>
 				<string>Edit Scheme…</string>
 			</dict>
