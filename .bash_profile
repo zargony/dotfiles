@@ -25,7 +25,7 @@ if [ -n "$BREW" ]; then
 	export PATH=$HOMEBREW/share/npm/bin:$PATH
 
 	# Rbenv and ruby-build
-	export RBENV_ROOT=$HOMEBREW/share/rbenv
+	export RBENV_ROOT=$HOMEBREW/var/rbenv
 	which rbenv >/dev/null && eval "$(rbenv init -)"
 fi
 unset BREW HOMEBREW
