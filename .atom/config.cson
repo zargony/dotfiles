@@ -6,11 +6,12 @@
   'softTabs': false
   'softWrap': true
   'tabLength': 4
+  'invisibles':
+    'cr': '↩'
+    'eol': ''
+    'space': '·'
+    'tab': '⇥'
 'core':
-  'themes': [
-    'atom-dark-ui'
-    'atom-smyck'
-  ]
   'disabledPackages': [
     'metrics'
     'exception-reporting'
