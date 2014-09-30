@@ -8,7 +8,6 @@
   'tabLength': 4
   'invisibles':
     'cr': '↩'
-    'eol': ''
     'space': '·'
     'tab': '⇥'
 'core':
