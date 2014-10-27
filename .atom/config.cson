@@ -1,18 +1,18 @@
-'editor':
-  'fontSize': 13
-  'fontFamily': 'Fantasque Sans Mono'
-  'showIndentGuide': true
-  'showInvisibles': true
-  'softTabs': false
-  'softWrap': true
-  'tabLength': 4
-  'invisibles':
-    'cr': '↩'
-    'space': '·'
-    'tab': '⇥'
-'core':
-  'disabledPackages': [
-    'metrics'
-    'exception-reporting'
-    'welcome'
-  ]
+'global':
+  'editor':
+    'fontSize': 13
+    'fontFamily': 'Fantasque Sans Mono'
+    'showIndentGuide': true
+    'showInvisibles': true
+    'softTabs': false
+    'softWrap': true
+    'tabLength': 4
+    'invisibles':
+      'cr': '↩'
+      'tab': '⇥'
+  'core':
+    'disabledPackages': [
+      'metrics'
+      'exception-reporting'
+      'welcome'
+    ]
