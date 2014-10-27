@@ -16,3 +16,15 @@
       'exception-reporting'
       'welcome'
     ]
+'.ruby.source':
+  'editor':
+    'softTabs': true
+    'tabLength': 2
+'.rust.source':
+  'editor':
+    'softTabs': true
+    'tabLength': 2
+'.source.yaml':
+  'editor':
+    'softTabs': true
+    'tabLength': 2
