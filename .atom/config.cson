@@ -23,7 +23,7 @@
 '.rust.source':
   'editor':
     'softTabs': true
-    'tabLength': 2
+    'tabLength': 4
 '.source.yaml':
   'editor':
     'softTabs': true
