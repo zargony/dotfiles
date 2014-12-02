@@ -16,7 +16,14 @@
       'exception-reporting'
       'welcome'
     ]
+  'minimap':
+    'plugins':
+      'git-diff': true
 '.ruby.source':
+  'editor':
+    'softTabs': true
+    'tabLength': 2
+'.source.yaml':
   'editor':
     'softTabs': true
     'tabLength': 2
@@ -24,7 +31,3 @@
   'editor':
     'softTabs': true
     'tabLength': 4
-'.source.yaml':
-  'editor':
-    'softTabs': true
-    'tabLength': 2
