@@ -1,4 +1,0 @@
-test -d "${HOME}/Applications/Sublime Text.app" && exec "${HOME}/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" $*
-test -d "${HOME}/Applications/Sublime Text 2.app" && exec "${HOME}/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" $*
-test -d "/Applications/Sublime Text.app" && exec "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" $*
-test -d "/Applications/Sublime Text 2.app" && exec "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" $*
