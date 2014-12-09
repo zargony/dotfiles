@@ -7,9 +7,7 @@
     'softTabs': false
     'softWrap': true
     'tabLength': 4
-    'invisibles':
-      'cr': '↩'
-      'tab': '⇥'
+    'lineHeight': 1.1
   'core':
     'disabledPackages': [
       'metrics'
