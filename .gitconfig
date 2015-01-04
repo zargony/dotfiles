@@ -18,15 +18,15 @@
 	st = status
 [push]
 	default = upstream
-[diff]
-	tool = opendiff
-[merge]
-	tool = opendiff
 [diff "utf16diff"]
 	textconv = iconv -f utf-16 -t utf-8
-[difftool "sourcetree"]
+[difftool "SourceTree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
-[mergetool "sourcetree"]
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[mergetool "SourceTree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustexitcode = true
