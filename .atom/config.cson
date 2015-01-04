@@ -14,18 +14,22 @@
       'exception-reporting'
       'welcome'
     ]
+    'themes': [
+      'atom-dark-ui'
+      'smyck'
+    ]
   'minimap':
     'plugins':
       'git-diff': true
-'.ruby.source':
-  'editor':
-    'softTabs': true
-    'tabLength': 2
-'.source.yaml':
-  'editor':
-    'softTabs': true
-    'tabLength': 2
 '.rust.source':
   'editor':
     'softTabs': true
     'tabLength': 4
+'.source.yaml':
+  'editor':
+    'softTabs': true
+    'tabLength': 2
+'.ruby.source':
+  'editor':
+    'softTabs': true
+    'tabLength': 2
