@@ -44,7 +44,7 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Select Next Tab</string>
+				<string>Show Next Tab</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -64,7 +64,7 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Select Previous Tab</string>
+				<string>Show Previous Tab</string>
 			</dict>
 		</array>
 		<key>Version</key>
