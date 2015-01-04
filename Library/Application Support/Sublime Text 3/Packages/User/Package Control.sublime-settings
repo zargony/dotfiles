@@ -1,4 +1,9 @@
 {
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"ColorPicker",
@@ -11,7 +16,10 @@
 		"JsFormat",
 		"Markdown Preview",
 		"nginx",
+		"Package Control",
 		"Placeholders",
+		"plist",
+		"Plist Binary",
 		"Puppet",
 		"Rust",
 		"SCSS",
