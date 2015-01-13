@@ -1,13 +1,14 @@
-'global':
+'*':
   'editor':
-    'fontSize': 13
     'fontFamily': 'Fantasque Sans Mono'
-    'showIndentGuide': true
-    'showInvisibles': true
-    'softTabs': false
-    'softWrap': true
-    'tabLength': 4
+    'fontSize': 13
     'lineHeight': 1.1
+    'showInvisibles': true
+    'showIndentGuide': true
+    'tabLength': 4
+    'softWrap': true
+    'softTabs': false
+    'invisibles': {}
   'core':
     'disabledPackages': [
       'metrics'
@@ -21,15 +22,19 @@
   'minimap':
     'plugins':
       'git-diff': true
-'.rust.source':
+'.source.coffee':
+  'editor':
+    'softTabs': true
+    'tabLength': 2
+'.source.ruby':
+  'editor':
+    'softTabs': true
+    'tabLength': 2
+'.source.rust':
   'editor':
     'softTabs': true
     'tabLength': 4
 '.source.yaml':
-  'editor':
-    'softTabs': true
-    'tabLength': 2
-'.ruby.source':
   'editor':
     'softTabs': true
     'tabLength': 2
