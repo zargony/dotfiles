@@ -22,11 +22,8 @@
   minimap:
     plugins:
       "git-diff": true
-".coffee.source":
-  editor:
-    softTabs: true
-    tabLength: 2
-".ruby.source":
+      "highlight-selected": true
+".source.yaml":
   editor:
     softTabs: true
     tabLength: 2
@@ -34,7 +31,11 @@
   editor:
     softTabs: true
     tabLength: 4
-".source.yaml":
+".ruby.source":
+  editor:
+    softTabs: true
+    tabLength: 2
+".coffee.source":
   editor:
     softTabs: true
     tabLength: 2
