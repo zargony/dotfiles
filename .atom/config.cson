@@ -1,8 +1,8 @@
 "*":
   editor:
     fontFamily: "Fantasque Sans Mono"
-    fontSize: 13
-    lineHeight: 1.1
+    fontSize: 14
+    lineHeight: 1.2
     showInvisibles: true
     showIndentGuide: true
     tabLength: 4
@@ -16,13 +16,19 @@
       "welcome"
     ]
     themes: [
-      "atom-dark-ui"
-      "smyck"
+      "isotope-ui"
+      "base16-tomorrow-dark-theme"
     ]
   minimap:
     plugins:
-      "git-diff": true
       "highlight-selected": true
+      "git-diff": true
+  "graphite-ui": {}
+  "isotope-ui":
+    compactLayout: true
+    lowContrastTooltip: true
+  "highlight-selected":
+    onlyHighlightWholeWords: true
 ".source.yaml":
   editor:
     softTabs: true
