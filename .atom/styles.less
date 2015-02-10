@@ -17,19 +17,22 @@
 }
 
 .editor {
-    // 'none', 'antialiased' or 'subpixel-antialiased'
-    -webkit-font-smoothing: antialiased;
+    // 'none', 'antialiased' or 'subpixel-antialiased' (default)
+    //-webkit-font-smoothing: antialiased;
+
+    // Enable ligatures
+    //text-rendering: optimizeLegibility;
 }
 
 .editor .cursor {
 }
 
-// Highlight the current line in the editor window, not just in the gutter
-.editor .line.cursor-line {
-    background: lighten(@base-background-color, 5%);
-}
+// // Highlight the current line in the editor window, not just in the gutter
+// .editor .line.cursor-line {
+//     background: lighten(@base-background-color, 5%);
+// }
 
-// Show invisible characters on the cursor line only
+// // Show invisible characters on the cursor line only
 // .editor .line:not(.cursor-line) .invisible-character {
 //     opacity: 0;
 // }

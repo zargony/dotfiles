@@ -1,6 +1,6 @@
 "*":
   editor:
-    fontFamily: "Fantasque Sans Mono"
+    fontFamily: "PragmataPro"
     fontSize: 14
     lineHeight: 1.2
     showInvisibles: true
@@ -25,8 +25,8 @@
       "git-diff": true
   "graphite-ui": {}
   "isotope-ui":
-    compactLayout: true
     lowContrastTooltip: true
+    compactLayout: true
   "highlight-selected":
     onlyHighlightWholeWords: true
 ".source.yaml":
