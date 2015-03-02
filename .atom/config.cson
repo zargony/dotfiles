@@ -17,7 +17,7 @@
     ]
     themes: [
       "isotope-ui"
-      "base16-tomorrow-dark-theme"
+      "one-dark-syntax"
     ]
   minimap:
     plugins:
@@ -25,23 +25,7 @@
       "git-diff": true
   "graphite-ui": {}
   "isotope-ui":
-    lowContrastTooltip: true
     compactLayout: true
+    lowContrastTooltip: true
   "highlight-selected":
     onlyHighlightWholeWords: true
-".source.yaml":
-  editor:
-    softTabs: true
-    tabLength: 2
-".rust.source":
-  editor:
-    softTabs: true
-    tabLength: 4
-".ruby.source":
-  editor:
-    softTabs: true
-    tabLength: 2
-".coffee.source":
-  editor:
-    softTabs: true
-    tabLength: 2
