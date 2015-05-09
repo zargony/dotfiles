@@ -29,3 +29,25 @@
     lowContrastTooltip: true
   "highlight-selected":
     onlyHighlightWholeWords: true
+  "git-projects":
+    rootPath: "~/Projects;~/Cloud/Projects"
+  "git-diff":
+    showIconsInEditorGutter: true
+".js.rails.source source.jquery.js":
+  editor:
+    tabLength: 2
+".ruby.source.sql":
+  editor:
+    tabLength: 2
+".html.ruby.text":
+  editor:
+    tabLength: 2
+".rails.ruby.source":
+  editor:
+    tabLength: 2
+".erb.html.text":
+  editor:
+    tabLength: 2
+".ruby.source":
+  editor:
+    tabLength: 2
