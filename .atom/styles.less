@@ -10,13 +10,17 @@
 
 @import "ui-variables";
 
-.workspace {
-}
-
 .tree-view {
 }
 
-.editor {
+// style the background and foreground colors on the atom-text-editor-element
+// itself
+atom-text-editor {
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow
+// expression
+atom-text-editor::shadow .cursor {
     // 'none', 'antialiased' or 'subpixel-antialiased' (default)
     //-webkit-font-smoothing: antialiased;
 
@@ -24,15 +28,12 @@
     //text-rendering: optimizeLegibility;
 }
 
-.editor .cursor {
-}
-
 // // Highlight the current line in the editor window, not just in the gutter
-// .editor .line.cursor-line {
+// atom-text-editor .line.cursor-line {
 //     background: lighten(@base-background-color, 5%);
 // }
 
 // // Show invisible characters on the cursor line only
-// .editor .line:not(.cursor-line) .invisible-character {
+// atom-text-editor .line:not(.cursor-line) .invisible-character {
 //     opacity: 0;
 // }
