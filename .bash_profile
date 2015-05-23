@@ -10,8 +10,8 @@ export GREP_OPTIONS='--color=auto'
 # Add private bin directory to search paths
 export PATH=$HOME/bin:$PATH
 
-# Point docker client to local host
-export DOCKER_HOST=tcp://127.0.0.1:2375
+# Point docker client to boot2docker VM (sets DOCKER_HOST)
+$(boot2docker shellinit 2>/dev/null)
 
 # Useful aliases
 alias l='ls -la'
