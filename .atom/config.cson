@@ -27,12 +27,17 @@
   "isotope-ui":
     compactLayout: true
     lowContrastTooltip: true
+    minimalMode: true
   "highlight-selected":
     onlyHighlightWholeWords: true
   "git-projects":
     rootPath: "~/Projects;~/Cloud/Projects"
+    maxDepth: 3
   "git-diff":
     showIconsInEditorGutter: true
+  "markdown-preview": {}
+  "merge-conflicts": {}
+  pigments: {}
 ".js.rails.source source.jquery.js":
   editor:
     tabLength: 2
