@@ -1,7 +1,6 @@
 "*":
   editor:
-    fontFamily: "PragmataPro"
-    fontSize: 14
+    fontFamily: "SourceCodePro-Light"
     lineHeight: 1.2
     showInvisibles: true
     showIndentGuide: true
@@ -33,11 +32,20 @@
   "git-projects":
     rootPath: "~/Projects;~/Cloud/Projects"
     maxDepth: 3
-  "git-diff":
-    showIconsInEditorGutter: true
+  "git-diff": {}
   "markdown-preview": {}
   "merge-conflicts": {}
   pigments: {}
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+  "linter-ruby":
+    rubyExecutablePath: "/usr/local/var/rbenv/shims/ruby"
+  linter:
+    showErrorTabLine: true
+  "autocomplete-ruby": {}
+  "linter-rust":
+    cargoPath: "/usr/local/bin/cargo"
+    rustcPath: "/usr/local/bin/rustc"
 ".js.rails.source source.jquery.js":
   editor:
     tabLength: 2
@@ -51,6 +59,9 @@
   editor:
     tabLength: 2
 ".erb.html.text":
+  editor:
+    tabLength: 2
+".source.yaml":
   editor:
     tabLength: 2
 ".ruby.source":
