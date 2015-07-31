@@ -1,13 +1,13 @@
 "*":
   editor:
-    fontFamily: "SourceCodePro-Light"
-    lineHeight: 1.2
     showInvisibles: true
     showIndentGuide: true
     tabLength: 4
     softWrap: true
     softTabs: false
     invisibles: {}
+    fontFamily: "SourceCodePro-Light"
+    lineHeight: 1.2
   core:
     disabledPackages: [
       "metrics"
@@ -15,8 +15,8 @@
       "welcome"
     ]
     themes: [
-      "isotope-ui"
-      "one-dark-syntax"
+      "atom-material-ui"
+      "atom-material-syntax"
     ]
   minimap:
     plugins:
@@ -40,12 +40,18 @@
     confirmCompletion: "tab"
   "linter-ruby":
     rubyExecutablePath: "/usr/local/var/rbenv/shims/ruby"
-  linter:
-    showErrorTabLine: true
   "autocomplete-ruby": {}
   "linter-rust":
     cargoPath: "/usr/local/bin/cargo"
     rustcPath: "/usr/local/bin/rustc"
+  "atom-material-ui":
+    tabSize: "Small"
+    showTabIcons: true
+    accentColor: "Blue"
+    compactTreeView: true
+    themeSyle: "Darker"
+  "one-dark-ui":
+    layoutMode: "Compact"
 ".js.rails.source source.jquery.js":
   editor:
     tabLength: 2
