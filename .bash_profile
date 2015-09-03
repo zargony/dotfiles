@@ -10,20 +10,14 @@ export GREP_OPTIONS='--color=auto'
 # Add private bin directory to search paths
 export PATH=$HOME/bin:$PATH
 
-# Point docker client to boot2docker VM (boot2docker shellinit)
-export DOCKER_CERT_PATH=$HOME/.boot2docker/certs/boot2docker-vm
-export DOCKER_TLS_VERIFY=1
-export DOCKER_HOST=tcp://192.168.59.103:2376
-
 # Useful aliases
 alias l='ls -la'
 alias ri='ri -f ansi'
 alias pwdc='pwd |pbcopy'
 
 # Homebrew - http://brew.sh/
-BREW=$(PATH=~/.homebrew/bin:/usr/local/bin:/opt/homebrew /usr/bin/which brew)
-if [ -n "$BREW" ]; then
-	HOMEBREW=$($BREW --prefix)
+if [ -n "$(which brew)" ]; then
+	HOMEBREW=$(brew --prefix)
 	export PATH=$HOMEBREW/bin:$HOMEBREW/sbin:$PATH
 
 	# Bash-completion
@@ -33,7 +27,14 @@ if [ -n "$BREW" ]; then
 	export PATH=$HOMEBREW/share/npm/bin:$PATH
 
 	# Rbenv and ruby-build
-	export RBENV_ROOT=$HOMEBREW/var/rbenv
-	which rbenv >/dev/null && eval "$(rbenv init -)"
+	if [ -n "$(which rbenv)" ]; then
+		export RBENV_ROOT=$(brew --prefix)/var/rbenv
+		eval "$(rbenv init -)"
+	fi
 fi
-unset BREW HOMEBREW
+unset HOMEBREW
+
+# Point docker client to local vm if present
+if [ -n "$(which docker-machine)" ]; then
+	eval "$(docker-machine env Docker-VM)"
+fi
