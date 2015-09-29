@@ -54,6 +54,8 @@
   linter: {}
   "file-icons": {}
   build: {}
+  "atom-beautify":
+    analytics: false
 ".js.rails.source source.jquery.js":
   editor:
     tabLength: 2
