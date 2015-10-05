@@ -9,4 +9,5 @@ guard
 guard-rspec
 pry
 rake
+terminal-notifier-guard
 wirble
