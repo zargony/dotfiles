@@ -7,6 +7,7 @@
     invisibles: {}
     lineHeight: 1.2
     fontFamily: "SourceCodePro-Light"
+    backUpBeforeSaving: true
   core:
     disabledPackages: [
       "metrics"
@@ -49,13 +50,20 @@
     accentColor: "Blue"
     compactTreeView: true
     themeSyle: "Darker"
+    panelContrast: true
+    showTabIcons: "Show on all tabs"
   "one-dark-ui":
     layoutMode: "Compact"
-  linter: {}
+  linter:
+    showErrorPanel: false
   "file-icons": {}
   build: {}
   "atom-beautify":
     analytics: false
+  deprecated:
+    tool:
+      cargo: true
+      npmapm: true
 ".js.rails.source source.jquery.js":
   editor:
     tabLength: 2
