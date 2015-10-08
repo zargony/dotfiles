@@ -1,4 +1,3 @@
-# Ruby gems
 require 'rubygems'
 
 if defined?(::Rails)
@@ -16,15 +15,13 @@ if defined?(::Mongoid)
   require 'logger'
   Mongoid.logger = Logger.new(STDOUT)
 end
-if !defined?(::Rails) && ENV['RAILS_ENV'] && !defined?(RAILS_DEFAULT_LOGGER)
-  puts 'Rails 2.x detected. Redirecting logger to screen.'
-  require 'logger'
-  RAILS_DEFAULT_LOGGER = Logger.new(STDOUT)
-end
 
-# Hack to load wirble, even from inside a bundle without the wirble gem
-require Dir["#{Gem.dir}/gems/wirble-*/lib/wirble.rb"].first
-if defined?(::Wirble)
-  Wirble.init
-  Wirble.colorize
+# Hack to load brice, even from inside a bundle without the brice gem
+require Dir["#{Gem.dir}/gems/brice-*/lib/brice.rb"].first
+if defined?(::Brice)
+  Brice.init do |config|
+    config.history.path = '~/.irb_history'
+    config.history.size = 1000
+    config.history.merge = true
+  end
 end
