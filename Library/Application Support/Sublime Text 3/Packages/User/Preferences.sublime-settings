@@ -1,4 +1,5 @@
 {
+	"additional_path_items": ["/usr/local/bin"],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
