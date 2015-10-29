@@ -4,6 +4,7 @@
 [core]
 	attributesfile = ~/.gitattributes
 	excludesfile = ~/.gitignore
+	precomposeunicode = true
 	quotepath = false
 [color]
 	ui = auto
