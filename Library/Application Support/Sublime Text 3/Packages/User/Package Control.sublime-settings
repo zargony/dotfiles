@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -18,7 +19,7 @@
 		"Placeholders",
 		"plist",
 		"Plist Binary",
-		"Puppet",
+		"Predawn",
 		"Rust",
 		"SCSS",
 		"Swift",
