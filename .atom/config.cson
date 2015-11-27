@@ -8,6 +8,7 @@
     lineHeight: 1.2
     fontFamily: "SourceCodePro-Light"
     backUpBeforeSaving: true
+    scrollPastEnd: true
   core:
     disabledPackages: [
       "metrics"
@@ -46,12 +47,16 @@
     cargoPath: "/usr/local/bin/cargo"
     rustcPath: "/usr/local/bin/rustc"
   "atom-material-ui":
-    tabSize: "Small"
-    accentColor: "Blue"
-    compactTreeView: true
-    themeSyle: "Darker"
-    panelContrast: true
-    showTabIcons: "Show on all tabs"
+    ui: {}
+    tabs:
+      tabSize: "Small"
+    fonts:
+      useRobotoInUI: true
+      useRoboto: true
+    treeView:
+      compactTreeView: true
+    panels:
+      panelContrast: true
   "one-dark-ui":
     layoutMode: "Compact"
   linter:
@@ -67,21 +72,21 @@
 ".js.rails.source source.jquery.js":
   editor:
     tabLength: 2
-".ruby.source.sql":
-  editor:
-    tabLength: 2
-".html.ruby.text":
+".erb.html.text":
   editor:
     tabLength: 2
 ".rails.ruby.source":
   editor:
     tabLength: 2
-".erb.html.text":
+".html.ruby.text":
   editor:
     tabLength: 2
-".source.yaml":
+".ruby.source.sql":
   editor:
     tabLength: 2
 ".ruby.source":
+  editor:
+    tabLength: 2
+".source.yaml":
   editor:
     tabLength: 2
