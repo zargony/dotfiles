@@ -10,6 +10,9 @@ export GREP_OPTIONS='--color=auto'
 # Add private bin directory to search paths
 export PATH=$HOME/bin:$PATH
 
+# Add Cargo bin directory to search paths
+export PATH=$HOME/.cargo/bin:$PATH
+
 # Useful aliases
 alias l='ls -la'
 alias ri='ri -f ansi'
