@@ -5,10 +5,10 @@
     tabLength: 4
     softWrap: true
     invisibles: {}
-    lineHeight: 1.2
-    fontFamily: "SourceCodePro-Light"
+    fontFamily: "Fira Code"
     backUpBeforeSaving: true
     scrollPastEnd: true
+    lineHeight: 1.2
   core:
     disabledPackages: [
       "metrics"
@@ -17,8 +17,9 @@
     ]
     themes: [
       "atom-material-ui"
-      "atom-material-syntax"
+      "rusty-dark-syntax"
     ]
+    projectHome: "~/Cloud/Projects"
   minimap:
     plugins:
       "highlight-selected": true
@@ -50,9 +51,7 @@
     ui: {}
     tabs:
       tabSize: "Small"
-    fonts:
-      useRobotoInUI: true
-      useRoboto: true
+    fonts: {}
     treeView:
       compactTreeView: true
     panels:
@@ -69,6 +68,8 @@
     tool:
       cargo: true
       npmapm: true
+  "build-cargo": {}
+  "build-make": {}
 ".js.rails.source source.jquery.js":
   editor:
     tabLength: 2

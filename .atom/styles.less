@@ -32,6 +32,17 @@ atom-text-editor::shadow .cursor {
 }
 
 
+// Ligatures
+atom-text-editor {
+  text-rendering: optimizeLegibility;
+}
+
+// No ligatures in string literals
+atom-text-editor::shadow .string.quoted, atom-text-editor::shadow .string.regexp {
+  -webkit-font-feature-settings: "liga" off, "calt" off;
+}
+
+
 // @import "ui-variables";
 
 // atom-text-editor::shadow {
