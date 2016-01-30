@@ -1,91 +1,91 @@
 "*":
-  editor:
-    showInvisibles: true
-    showIndentGuide: true
-    tabLength: 4
-    softWrap: true
-    invisibles: {}
-    fontFamily: "Fira Code"
-    backUpBeforeSaving: true
-    scrollPastEnd: true
-    lineHeight: 1.2
+  "atom-beautify":
+    analytics: false
+  "atom-material-ui":
+    fonts: {}
+    panels:
+      panelContrast: true
+    tabs:
+      tabSize: "Small"
+    treeView:
+      compactTreeView: true
+    ui: {}
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+  "autocomplete-ruby": {}
+  build: {}
+  "build-cargo": {}
+  "build-make": {}
   core:
     disabledPackages: [
       "metrics"
       "exception-reporting"
       "welcome"
     ]
+    projectHome: "~/Cloud/Projects"
     themes: [
       "atom-material-ui"
       "rusty-dark-syntax"
     ]
-    projectHome: "~/Cloud/Projects"
-  minimap:
-    plugins:
-      "highlight-selected": true
-      "git-diff": true
-  "graphite-ui": {}
-  "isotope-ui":
-    compactLayout: true
-    lowContrastTooltip: true
-    minimalMode: true
-  "highlight-selected":
-    onlyHighlightWholeWords: true
-  "git-projects":
-    rootPath: "~/Projects;~/Cloud/Projects"
-    maxDepth: 3
-  "git-diff": {}
-  "markdown-preview": {}
-  "merge-conflicts":
-    gitPath: "/usr/local/bin/git"
-  pigments: {}
-  "autocomplete-plus":
-    confirmCompletion: "tab"
-  "linter-ruby":
-    rubyExecutablePath: "/usr/local/var/rbenv/shims/ruby"
-  "autocomplete-ruby": {}
-  "linter-rust":
-    cargoPath: "/usr/local/bin/cargo"
-    rustcPath: "/usr/local/bin/rustc"
-  "atom-material-ui":
-    ui: {}
-    tabs:
-      tabSize: "Small"
-    fonts: {}
-    treeView:
-      compactTreeView: true
-    panels:
-      panelContrast: true
-  "one-dark-ui":
-    layoutMode: "Compact"
-  linter:
-    showErrorPanel: false
-  "file-icons": {}
-  build: {}
-  "atom-beautify":
-    analytics: false
   deprecated:
     tool:
       cargo: true
       npmapm: true
-  "build-cargo": {}
-  "build-make": {}
-".js.rails.source source.jquery.js":
   editor:
-    tabLength: 2
+    backUpBeforeSaving: true
+    fontFamily: "Fira Code"
+    invisibles: {}
+    lineHeight: 1.2
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+  "file-icons": {}
+  "git-diff": {}
+  "git-projects":
+    maxDepth: 3
+    rootPath: "~/Projects;~/Cloud/Projects"
+  "graphite-ui": {}
+  "highlight-selected":
+    onlyHighlightWholeWords: true
+  "isotope-ui":
+    compactLayout: true
+    lowContrastTooltip: true
+    minimalMode: true
+  linter:
+    showErrorPanel: false
+  "linter-ruby":
+    rubyExecutablePath: "/usr/local/var/rbenv/shims/ruby"
+  "linter-rust":
+    cargoPath: "/usr/local/bin/cargo"
+    rustcPath: "/usr/local/bin/rustc"
+  "markdown-preview": {}
+  "merge-conflicts":
+    gitPath: "/usr/local/bin/git"
+  minimap:
+    plugins:
+      "git-diff": true
+      "highlight-selected": true
+  "one-dark-ui":
+    layoutMode: "Compact"
+  pigments: {}
 ".erb.html.text":
-  editor:
-    tabLength: 2
-".rails.ruby.source":
   editor:
     tabLength: 2
 ".html.ruby.text":
   editor:
     tabLength: 2
-".ruby.source.sql":
+".js.rails.source source.jquery.js":
+  editor:
+    tabLength: 2
+".rails.ruby.source":
   editor:
     tabLength: 2
 ".ruby.source":
+  editor:
+    tabLength: 2
+".ruby.source.sql":
   editor:
     tabLength: 2
 ".source.yaml":
