@@ -2,14 +2,21 @@
   "atom-beautify":
     analytics: false
   "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 33
+        green: 150
+        blue: 243
+        alpha: 1
+      genAccent: true
+      predefinedColor: "Blue"
     fonts: {}
-    panels:
-      panelContrast: true
     tabs:
-      tabSize: "Small"
+      compactTabs: true
     treeView:
-      compactTreeView: true
-    ui: {}
+      compactList: true
+    ui:
+      panelContrast: true
   "autocomplete-plus":
     confirmCompletion: "tab"
   "autocomplete-ruby": {}
@@ -53,8 +60,7 @@
     compactLayout: true
     lowContrastTooltip: true
     minimalMode: true
-  linter:
-    showErrorPanel: false
+  linter: {}
   "linter-ruby":
     rubyExecutablePath: "/usr/local/var/rbenv/shims/ruby"
   "linter-rust":
@@ -66,7 +72,9 @@
   minimap:
     plugins:
       "git-diff": true
+      "git-diffDecorationsZIndex": 0
       "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
   "one-dark-ui":
     layoutMode: "Compact"
   pigments: {}

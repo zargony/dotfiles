@@ -43,6 +43,6 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 4,
-	"theme": "predawn.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": false
 }
