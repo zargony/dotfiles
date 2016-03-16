@@ -17,6 +17,9 @@ export PATH=$HOME/.cargo/bin:$PATH
 alias l='ls -la'
 alias ri='ri -f ansi'
 alias pwdc='pwd |pbcopy'
+alias be='bundle exec'
+alias dm='docker-machine'
+alias dc='docker-compose'
 
 # Homebrew - http://brew.sh/
 if [ -n "$(which brew)" ]; then
