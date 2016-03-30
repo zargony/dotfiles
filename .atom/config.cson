@@ -31,7 +31,7 @@
     ]
     projectHome: "~/Cloud/Projects"
     themes: [
-      "atom-material-ui"
+      "nucleus-dark-ui"
       "rusty-dark-syntax"
     ]
   deprecated:
