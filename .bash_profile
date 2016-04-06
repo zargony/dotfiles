@@ -40,11 +40,11 @@ if [ -n "$(which brew)" ]; then
 fi
 unset HOMEBREW
 
-## Point docker client to local vm if present
-#if [ -n "$(which docker-machine)" ]; then
-#	eval "$(docker-machine env vm)"
-#	#export DOCKER_TLS_VERIFY=1
-#	#export DOCKER_HOST=tcp://192.168.99.100:2376
-#	#export DOCKER_CERT_PATH=$HOME/.docker/machine/machines/Docker-VM
-#	#export DOCKER_MACHINE_NAME=Docker-VM
-#fi
+# Point docker client to local vm if present
+if [ -n "$(which docker-machine)" ]; then
+	#eval "$(docker-machine env)"
+	export DOCKER_TLS_VERIFY=1
+	export DOCKER_HOST=tcp://172.16.168.138:2376
+	export DOCKER_CERT_PATH=$HOME/.docker/machine/machines/default
+	export DOCKER_MACHINE_NAME=default
+fi
