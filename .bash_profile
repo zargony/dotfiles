@@ -18,7 +18,6 @@ alias l='ls -la'
 alias ri='ri -f ansi'
 alias pwdc='pwd |pbcopy'
 alias be='bundle exec'
-alias dm='docker-machine'
 alias dc='docker-compose'
 
 # Homebrew - http://brew.sh/
@@ -39,12 +38,3 @@ if [ -n "$(which brew)" ]; then
 	fi
 fi
 unset HOMEBREW
-
-# Point docker client to local vm if present
-if [ -n "$(which docker-machine)" ]; then
-	#eval "$(docker-machine env)"
-	export DOCKER_TLS_VERIFY=1
-	export DOCKER_HOST=tcp://172.16.168.138:2376
-	export DOCKER_CERT_PATH=$HOME/.docker/machine/machines/default
-	export DOCKER_MACHINE_NAME=default
-fi
