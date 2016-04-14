@@ -4,10 +4,10 @@
   "atom-material-ui":
     colors:
       abaseColor:
-        red: 33
-        green: 150
-        blue: 243
         alpha: 1
+        blue: 243
+        green: 150
+        red: 33
       genAccent: true
       predefinedColor: "Blue"
     fonts: {}
@@ -24,6 +24,7 @@
   "build-cargo": {}
   "build-make": {}
   core:
+    allowPendingPaneItems: false
     disabledPackages: [
       "metrics"
       "exception-reporting"
