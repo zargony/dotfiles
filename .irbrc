@@ -1,19 +1,18 @@
 require 'rubygems'
 
+require 'logger'
+$console_logger = Logger.new(STDOUT)
 if defined?(::Rails)
-  puts 'Rails detected. Redirecting logger to screen.'
-  require 'logger'
-  Rails.logger = Logger.new(STDOUT)
+  puts ' * Rails detected. Redirecting logger to screen.'
+  Rails.logger = $console_logger
 end
 if defined?(::ActiveRecord)
-  puts 'ActiveRecord detected. Redirecting logger to screen.'
-  require 'logger'
-  ActiveRecord::Base.logger = Logger.new(STDOUT)
+  puts ' * ActiveRecord detected. Redirecting logger to screen.'
+  ActiveRecord::Base.logger = $console_logger
 end
 if defined?(::Mongoid)
-  puts 'Mongoid detected. Redirecting logger to screen.'
-  require 'logger'
-  Mongoid.logger = Logger.new(STDOUT)
+  puts ' * Mongoid detected. Redirecting logger to screen.'
+  Mongoid.logger = $console_logger
 end
 
 if !defined?(::Pry)
