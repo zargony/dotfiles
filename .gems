@@ -2,7 +2,6 @@ autotest
 autotest-fsevent
 autotest-growl
 autotest-rails-pure
-brice
 bundler
 cocoapods
 gemedit
@@ -11,3 +10,4 @@ guard-rspec
 pry
 rake
 terminal-notifier-guard
+wirb

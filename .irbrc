@@ -15,14 +15,9 @@ if defined?(::Mongoid)
   Mongoid.logger = $console_logger
 end
 
-if !defined?(::Pry)
-  # Hack to load brice, even from inside a bundle without the brice gem
-  require Dir["#{Gem.dir}/gems/brice-*/lib/brice.rb"].first
-  if defined?(::Brice)
-    Brice.init do |config|
-      config.history.path = '~/.irb_history'
-      config.history.size = 1000
-      config.history.merge = true
-    end
-  end
-end
+require 'irb/completion'
+IRB.conf[:AUTO_INDENT] = true
+IRB.conf[:SAVE_HISTORY] = 1000
+
+require 'wirb'
+Wirb.start
