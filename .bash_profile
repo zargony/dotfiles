@@ -28,12 +28,9 @@ if [ -n "$(which brew)" ]; then
 	# Bash-completion
 	. $HOMEBREW/etc/bash_completion
 
-	# Node.js
-	export PATH=$HOMEBREW/share/npm/bin:$PATH
-
 	# Rbenv and ruby-build
 	if [ -n "$(which rbenv)" ]; then
-		export RBENV_ROOT=$(brew --prefix)/var/rbenv
+		export RBENV_ROOT=$HOMEBREW/var/rbenv
 		eval "$(rbenv init -)"
 	fi
 fi
