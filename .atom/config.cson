@@ -1,13 +1,15 @@
 "*":
+  "activate-power-mode":
+    autoToggle: false
   "atom-beautify":
     analytics: false
   "atom-material-ui":
     colors:
       abaseColor:
-        alpha: 1
-        blue: 243
-        green: 150
         red: 33
+        green: 150
+        blue: 243
+        alpha: 1
       genAccent: true
       predefinedColor: "Blue"
     fonts: {}
@@ -48,7 +50,6 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
-    tabLength: 4
   "file-icons": {}
   "git-diff": {}
   "git-projects":
@@ -61,7 +62,8 @@
     compactLayout: true
     lowContrastTooltip: true
     minimalMode: true
-  linter: {}
+  linter:
+    showErrorPanel: false
   "linter-ruby":
     rubyExecutablePath: "/usr/local/var/rbenv/shims/ruby"
   "linter-rust":
@@ -72,6 +74,8 @@
     gitPath: "/usr/local/bin/git"
   minimap:
     plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
       "git-diff": true
       "git-diffDecorationsZIndex": 0
       "highlight-selected": true
@@ -79,3 +83,9 @@
   "one-dark-ui":
     layoutMode: "Compact"
   pigments: {}
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
