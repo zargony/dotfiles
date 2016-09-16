@@ -3,22 +3,6 @@
     autoToggle: false
   "atom-beautify":
     analytics: false
-  "atom-material-ui":
-    colors:
-      abaseColor:
-        alpha: 1
-        blue: 243
-        green: 150
-        red: 33
-      genAccent: true
-      predefinedColor: "Blue"
-    fonts: {}
-    tabs:
-      compactTabs: true
-    treeView:
-      compactList: true
-    ui:
-      panelContrast: true
   "autocomplete-plus":
     confirmCompletion: "tab"
   "autocomplete-ruby": {}
@@ -45,7 +29,7 @@
     backUpBeforeSaving: true
     fontFamily: "Fira Code"
     invisibles: {}
-    lineHeight: 1.2
+    lineHeight: 1.3
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
@@ -58,10 +42,6 @@
   "graphite-ui": {}
   "highlight-selected":
     onlyHighlightWholeWords: true
-  "isotope-ui":
-    compactLayout: true
-    lowContrastTooltip: true
-    minimalMode: true
   linter:
     showErrorPanel: false
   "linter-ruby":
