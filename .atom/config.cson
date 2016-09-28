@@ -27,13 +27,14 @@
       npmapm: true
   editor:
     backUpBeforeSaving: true
-    fontFamily: "Fira Code"
+    fontFamily: "FiraCode-light"
     invisibles: {}
     lineHeight: 1.3
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
+    tabLength: 4
   "file-icons": {}
   "git-diff": {}
   "git-projects":
