@@ -34,7 +34,6 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
-    tabLength: 4
   "file-icons": {}
   "git-diff": {}
   "git-projects":
