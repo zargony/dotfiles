@@ -1,0 +1,15 @@
+// Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
+{
+    "editor.fontFamily": "FiraCode-Light",
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.reopenFolders": "all",
+    "files.trimTrailingWhitespace": true,
+    "search.exclude": {
+        "**/target": true
+    },
+    "rust.rustLangSrcPath": "/Users/zargony/.multirust/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src"
+}

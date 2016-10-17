@@ -1,0 +1,5 @@
+// Platzieren Sie Ihre Tastenzuordnungen in dieser Datei, um die Standardwerte zu überschreiben.
+[
+{ "key": "cmd+'",                 "command": "workbench.action.nextEditor" },
+{ "key": "cmd+;",                 "command": "workbench.action.previousEditor" }
+]
