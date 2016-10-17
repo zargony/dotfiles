@@ -7,9 +7,10 @@
     "editor.renderIndentGuides": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "window.reopenFolders": "all",
-    "files.trimTrailingWhitespace": true,
     "search.exclude": {
         "**/target": true
     },
+    "trailing-spaces.deleteModifiedLinesOnly": true,
+    "trailing-spaces.trimOnSave": true,
     "rust.rustLangSrcPath": "/Users/zargony/.multirust/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src"
 }
