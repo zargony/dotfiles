@@ -10,6 +10,8 @@
     "search.exclude": {
         "**/target": true
     },
+    "terminal.integrated.shellArgs.linux": ["-l"],
+    "terminal.integrated.shellArgs.osx": ["-l"],
     "trailing-spaces.deleteModifiedLinesOnly": true,
     "trailing-spaces.trimOnSave": true,
     "rust.rustLangSrcPath": "/Users/zargony/.multirust/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src"
