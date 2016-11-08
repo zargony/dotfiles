@@ -1,0 +1,20 @@
+{
+	 // Place your snippets for Rust here. Each snippet is defined under a snippet name and has a prefix, body and
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	"mod-tests": {
+		"prefix": "mod-tests",
+		"body": [
+			"#[cfg(test)]",
+			"mod tests {",
+			"    use super::*;",
+			"",
+			"    #[test]",
+			"    fn ${1:name}() {",
+			"        ${2:unimplemented!();}",
+			"    }",
+			"}"
+		],
+		"description": "#[cfg(test)]\nmod tests { … }"
+	}
+}
