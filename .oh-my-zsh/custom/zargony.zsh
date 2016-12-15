@@ -1,6 +1,4 @@
-# Local bin path
-export PATH=/usr/local/bin:$PATH
-# Private local bin path
+export EDITOR='vim'
 export PATH=$HOME/.local/bin:$PATH
 
 # Rust - https://www.rustup.rs/
