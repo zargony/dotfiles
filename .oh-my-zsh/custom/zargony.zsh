@@ -1,11 +1,14 @@
 export EDITOR='vim'
 export PATH=$HOME/.local/bin:$PATH
 
+# Homebrew completions
+[[ -d /usr/local/Homebrew/completions/zsh ]] && fpath=(/usr/local/Homebrew/completions/zsh $fpath)
+
 # Rust - https://www.rustup.rs/
 [[ -f $HOME/.cargo/env ]] && source $HOME/.cargo/env
 
 # Ruby (rbenv and ruby-build)
-if [[ -n "$(which rbenv)" ]]; then
+if [[ -n "$(whence -p rbenv)" ]]; then
 	export RBENV_ROOT=/usr/local/var/rbenv
 	eval "$(rbenv init -)"
 fi
