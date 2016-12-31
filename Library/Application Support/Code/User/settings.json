@@ -15,8 +15,5 @@
     },
     "trailing-spaces.deleteModifiedLinesOnly": true,
     "trailing-spaces.trimOnSave": true,
-    "rust.rustLangSrcPath": "/Users/zargony/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src",
-    //"rust.checkOnSave": true,
-    "rust.checkWith": "check",
-    "rust.useJsonErrors": true
+    "rust.rustLangSrcPath": "/Users/zargony/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src"
 }
