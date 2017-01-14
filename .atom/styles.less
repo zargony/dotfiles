@@ -26,8 +26,8 @@ atom-text-editor {
   // background-color: hsl(180, 24%, 12%);
 }
 
-// To style other content in the text editor's shadow DOM, use the ::shadow expression
-atom-text-editor::shadow .cursor {
+// To style other content in the text editor
+atom-text-editor .cursor {
   // border-color: red;
 }
 
@@ -38,14 +38,14 @@ atom-text-editor {
 }
 
 // No ligatures in string literals
-atom-text-editor::shadow .string.quoted, atom-text-editor::shadow .string.regexp {
+atom-text-editor .string.quoted, atom-text-editor .string.regexp {
   -webkit-font-feature-settings: "liga" off, "calt" off;
 }
 
 
 // @import "ui-variables";
 
-// atom-text-editor::shadow {
+// atom-text-editor {
 //     // 'none', 'antialiased' or 'subpixel-antialiased' (default)
 //     //-webkit-font-smoothing: antialiased;
 //
@@ -54,11 +54,11 @@ atom-text-editor::shadow .string.quoted, atom-text-editor::shadow .string.regexp
 // }
 
 // // Highlight the current line in the editor window, not just in the gutter
-// atom-text-editor::shadow .line.cursor-line {
+// atom-text-editor .line.cursor-line {
 //     background: lighten(@base-background-color, 5%);
 // }
 
 // // Show invisible characters on the cursor line only
-// atom-text-editor::shadow .line:not(.cursor-line) .invisible-character {
+// atom-text-editor .line:not(.cursor-line) .invisible-character {
 //     opacity: 0;
 // }
