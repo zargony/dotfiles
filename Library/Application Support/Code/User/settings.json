@@ -10,10 +10,25 @@
     "editor.renderIndentGuides": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "window.reopenFolders": "all",
+    "window.newWindowDimensions": "inherit",
     "search.exclude": {
         "**/target": true
     },
     "trailing-spaces.deleteModifiedLinesOnly": true,
     "trailing-spaces.trimOnSave": true,
-    "rust.rustLangSrcPath": "/Users/zargony/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src"
+    "rust.rustLangSrcPath": "/Users/zargony/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src",
+
+    "[ruby]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
+    "[rust]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.wrappingColumn": 99,
+    },
+    "[yaml]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
 }
