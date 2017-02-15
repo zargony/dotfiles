@@ -4,6 +4,7 @@
     "editor.fontSize": 13,
     "editor.lineHeight": 16,
     "editor.lineNumbers": "on",
+    "editor.wordWrap": true,
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "boundary",
     "editor.renderControlCharacters": true,
