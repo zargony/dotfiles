@@ -21,7 +21,4 @@ alias l='ls -la'
 [[ -f /usr/local/etc/bash_completion ]] && source /usr/local/etc/bash_completion
 
 # Ruby (rbenv and ruby-build)
-if [[ -n "$(which rbenv)" ]]; then
-	export RBENV_ROOT=/usr/local/var/rbenv
-	eval "$(rbenv init -)"
-fi
+[[ -n "$(which rbenv)" ]] && eval "$(rbenv init -)"
