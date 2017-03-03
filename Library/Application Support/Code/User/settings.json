@@ -4,12 +4,16 @@
     "editor.fontSize": 13,
     "editor.lineHeight": 16,
     "editor.lineNumbers": "on",
-    "editor.wordWrap": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.minimap.enabled": true,
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "boundary",
     "editor.renderControlCharacters": true,
     "editor.renderIndentGuides": true,
     "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vscode-great-icons",
     "window.reopenFolders": "all",
     "window.newWindowDimensions": "inherit",
     "search.exclude": {
@@ -26,7 +30,7 @@
     "[rust]": {
         "editor.tabSize": 4,
         "editor.insertSpaces": true,
-        "editor.wrappingColumn": 99,
+        "editor.wordWrapColumn": 99,
     },
     "[yaml]": {
         "editor.tabSize": 2,
