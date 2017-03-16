@@ -5,11 +5,11 @@
       <brand>Zargony</brand>
       <material>PLA</material>
       <color>Generic</color>
-      <label>Banggood PLA</label>
+      <label>eSun PLA</label>
     </name>
     <GUID>506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9</GUID>
     <adhesion_info />
-    <description>10 x 50g/40m (different colors) for 3D printing pen. Prints fine at 195°C</description>
+    <description>eSun PLA, 1kg, Diameter +/-0,05mm, 190°C-220°C, First layer 195°C, www.esun3d.net</description>
     <version>1</version>
     <color_code>#ffc924</color_code>
   </metadata>
@@ -22,7 +22,7 @@
     <setting key="heated bed temperature">50.0</setting>
     <setting key="retraction speed">150.0</setting>
     <setting key="retraction amount">4.5</setting>
-    <setting key="standby temperature">150.0</setting>
+    <setting key="standby temperature">170.0</setting>
     <setting key="print cooling">100.0</setting>
   </settings>
 </fdmmaterial>

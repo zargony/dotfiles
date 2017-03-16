@@ -7,10 +7,10 @@
       <color>Generic</color>
       <label>NuNus PLA</label>
     </name>
-    <version>1</version>
-    <adhesion_info />
     <GUID>506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9</GUID>
-    <description />
+    <adhesion_info />
+    <description>NuNus PLA, 1kg, Diameter +/-0,1mm, Roundness +/-0,06mm, 180°C-220°C, www.nunus-filamente.com</description>
+    <version>1</version>
     <color_code>#ffc924</color_code>
   </metadata>
   <properties>
@@ -19,10 +19,10 @@
   </properties>
   <settings>
     <setting key="print temperature">192.0</setting>
-    <setting key="retraction amount">4.5</setting>
     <setting key="heated bed temperature">50.0</setting>
-    <setting key="print cooling">100.0</setting>
-    <setting key="standby temperature">170.0</setting>
     <setting key="retraction speed">150.0</setting>
+    <setting key="retraction amount">4.5</setting>
+    <setting key="standby temperature">170.0</setting>
+    <setting key="print cooling">100.0</setting>
   </settings>
 </fdmmaterial>
