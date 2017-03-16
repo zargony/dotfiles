@@ -5,25 +5,24 @@
       <brand>Zargony</brand>
       <material>PLA</material>
       <color>Generic</color>
-      <label>Zargony PLA</label>
+      <label>Banggood PLA</label>
     </name>
-    <compatible>True</compatible>
+    <version>1</version>
+    <adhesion_info />
     <GUID>506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9</GUID>
     <description />
-    <version>1</version>
     <color_code>#ffc924</color_code>
-    <adhesion_info />
   </metadata>
   <properties>
     <density>1.24</density>
     <diameter>1.75</diameter>
   </properties>
   <settings>
-    <setting key="print cooling">100.0</setting>
-    <setting key="retraction speed">150.0</setting>
-    <setting key="print temperature">192.0</setting>
+    <setting key="print temperature">195.0</setting>
     <setting key="retraction amount">4.5</setting>
-    <setting key="standby temperature">170.0</setting>
     <setting key="heated bed temperature">50.0</setting>
+    <setting key="print cooling">100.0</setting>
+    <setting key="standby temperature">170.0</setting>
+    <setting key="retraction speed">150.0</setting>
   </settings>
 </fdmmaterial>
