@@ -17,7 +17,8 @@
     "window.reopenFolders": "all",
     "window.newWindowDimensions": "inherit",
     "search.exclude": {
-        "**/target": true
+        "**/target": true,
+        "**/vendor": true
     },
     "trailing-spaces.deleteModifiedLinesOnly": true,
     "trailing-spaces.trimOnSave": true,
