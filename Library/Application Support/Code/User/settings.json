@@ -12,8 +12,8 @@
     "editor.renderControlCharacters": true,
     "editor.renderIndentGuides": true,
     "diffEditor.ignoreTrimWhitespace": false,
-    "workbench.colorTheme": "Default Dark+",
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.iconTheme": "material-icon-theme",
     "window.reopenFolders": "all",
     "window.newWindowDimensions": "inherit",
     "search.exclude": {
