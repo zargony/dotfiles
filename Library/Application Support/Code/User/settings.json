@@ -14,8 +14,11 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.colorTheme": "Solarized Dark",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.welcome.enabled": false,
     "window.reopenFolders": "all",
     "window.newWindowDimensions": "inherit",
+    "explorer.openEditors.visible": 0,
+    "explorer.autoReveal": false,
     "search.exclude": {
         "**/target": true,
         "**/vendor": true
