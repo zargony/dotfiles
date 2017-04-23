@@ -1,26 +1,27 @@
-<?xml version='1.0' encoding='US-ASCII'?>
+<?xml version='1.0' encoding='utf-8'?>
 <fdmmaterial xmlns="http://www.ultimaker.com/material">
   <metadata>
     <name>
-      <brand>Zargony</brand>
+      <brand>* Zargony</brand>
       <material>PLA</material>
       <color>Generic</color>
       <label>NuNus PLA</label>
     </name>
-    <GUID>506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9</GUID>
-    <adhesion_info />
+    <color_code>#ffc924</color_code>
     <description>NuNus PLA, 1kg, Diameter +/-0,1mm, Roundness +/-0,06mm, 180°C-220°C, www.nunus-filamente.com</description>
     <version>1</version>
-    <color_code>#ffc924</color_code>
+    <adhesion_info />
+    <GUID>506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9</GUID>
+    <compatible>True</compatible>
   </metadata>
   <properties>
-    <density>1.24</density>
     <diameter>1.75</diameter>
+    <density>1.24</density>
   </properties>
   <settings>
     <setting key="print temperature">192.0</setting>
-    <setting key="heated bed temperature">50.0</setting>
     <setting key="standby temperature">170.0</setting>
+    <setting key="heated bed temperature">50.0</setting>
     <setting key="print cooling">100.0</setting>
   </settings>
 </fdmmaterial>
