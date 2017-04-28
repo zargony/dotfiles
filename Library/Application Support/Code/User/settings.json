@@ -29,15 +29,15 @@
 
     "[ruby]": {
         "editor.tabSize": 2,
-        "editor.insertSpaces": true,
+        "editor.insertSpaces": true
     },
     "[rust]": {
         "editor.tabSize": 4,
         "editor.insertSpaces": true,
-        "editor.wordWrapColumn": 99,
+        "editor.wordWrapColumn": 99
     },
     "[yaml]": {
         "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-    },
+        "editor.insertSpaces": true
+    }
 }
