@@ -1,11 +1,4 @@
 "*":
-  "activate-power-mode":
-    autoToggle: false
-  "atom-beautify":
-    analytics: false
-  "autocomplete-plus":
-    confirmCompletion: "tab"
-  "autocomplete-ruby": {}
   build: {}
   "build-cargo": {}
   "build-make": {}
@@ -21,10 +14,6 @@
       "nucleus-dark-ui"
       "rusty-dark-syntax"
     ]
-  deprecated:
-    tool:
-      cargo: true
-      npmapm: true
   editor:
     backUpBeforeSaving: true
     fontFamily: "FiraCode-light"
@@ -36,10 +25,6 @@
     softWrap: true
   "file-icons": {}
   "git-diff": {}
-  "git-projects":
-    maxDepth: 3
-    rootPath: "~/Projects;~/Cloud/Projects"
-  "graphite-ui": {}
   "highlight-selected":
     onlyHighlightWholeWords: true
   linter:
@@ -69,3 +54,6 @@
     leftEditorColor: "red"
     rightEditorColor: "green"
     syncHorizontalScroll: true
+".rust.source":
+  editor:
+    tabLength: 4
