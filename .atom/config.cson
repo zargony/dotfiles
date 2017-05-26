@@ -54,6 +54,3 @@
     leftEditorColor: "red"
     rightEditorColor: "green"
     syncHorizontalScroll: true
-".rust.source":
-  editor:
-    tabLength: 4

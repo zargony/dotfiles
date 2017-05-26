@@ -11,7 +11,7 @@
 	"editor.renderControlCharacters": true,
 	"editor.renderIndentGuides": true,
 	"diffEditor.ignoreTrimWhitespace": false,
-	"workbench.colorTheme": "Solarized Dark",
+	"workbench.colorTheme": "One Dark pro",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.welcome.enabled": false,
 	"window.reopenFolders": "all",
