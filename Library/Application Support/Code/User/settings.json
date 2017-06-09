@@ -13,7 +13,6 @@
 	"diffEditor.ignoreTrimWhitespace": false,
 	"workbench.colorTheme": "One Dark pro",
 	"workbench.iconTheme": "material-icon-theme",
-	"workbench.welcome.enabled": false,
 	"window.reopenFolders": "all",
 	"window.newWindowDimensions": "inherit",
 	"explorer.openEditors.visible": 0,
