@@ -21,13 +21,15 @@
 		"**/target": true,
 		"**/vendor": true
 	},
-	"trailing-spaces.deleteModifiedLinesOnly": true,
-	"trailing-spaces.trimOnSave": true,
+	"update.channel": "default",
+	"extensions.autoUpdate": false,
 	"rust.rls": {
 		// FIXME: using rls from nightly since it's not in stable yet
 		"executable": "rustup",
 		"args": ["run", "nightly", "rls"]
 	},
+	"trailing-spaces.deleteModifiedLinesOnly": true,
+	"trailing-spaces.trimOnSave": true,
 
 	"[ruby]": {
 		"editor.tabSize": 2,
