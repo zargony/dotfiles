@@ -1,4 +1,5 @@
 "*":
+  "bracket-matcher": {}
   build: {}
   "build-cargo": {}
   "build-make": {}
@@ -12,7 +13,7 @@
     projectHome: "~/Cloud/Projects"
     themes: [
       "nucleus-dark-ui"
-      "rusty-dark-syntax"
+      "atom-dark-syntax"
     ]
   editor:
     backUpBeforeSaving: true
@@ -45,8 +46,7 @@
       "git-diffDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
-  "one-dark-ui":
-    layoutMode: "Compact"
+  "one-dark-ui": {}
   pigments: {}
   "split-diff":
     diffWords: true
