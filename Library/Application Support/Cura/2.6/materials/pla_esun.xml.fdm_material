@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fdmmaterial version="1.3" xmlns="http://www.ultimaker.com/material">
+  <metadata>
+    <name>
+      <brand>* Zargony</brand>
+      <material>PLA</material>
+      <color>Generic</color>
+      <label>eSun PLA</label>
+    </name>
+    <setting_version>1</setting_version>
+    <GUID>250c4bfc-e360-41a8-8e1c-82d39e486936</GUID>
+    <description>eSun PLA, 1kg, Diameter +/-0,05mm, 190°C-220°C, First layer 195°C, www.esun3d.net</description>
+    <color_code>#ffffff</color_code>
+    <version>2</version>
+    <adhesion_info />
+    <compatible>True</compatible>
+  </metadata>
+  <properties>
+    <density>1.24</density>
+    <diameter>1.75</diameter>
+  </properties>
+  <settings>
+    <setting key="heated bed temperature">50.0</setting>
+    <setting key="print cooling">100.0</setting>
+    <setting key="print temperature">195.0</setting>
+    <setting key="standby temperature">170.0</setting>
+  </settings>
+</fdmmaterial>
