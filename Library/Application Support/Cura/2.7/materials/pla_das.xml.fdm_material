@@ -5,24 +5,23 @@
       <brand>* Zargony</brand>
       <material>PLA</material>
       <color>Generic</color>
-      <label>Banggood PLA</label>
+      <label>DAS FILAMENT PLA</label>
     </name>
-    <setting_version>1</setting_version>
-    <GUID>81ac42bf-2c9a-48f0-9e2c-3bc684978378</GUID>
-    <description>10 x 50g/40m (different colors) for 3D printing pen. Prints fine at 195°C</description>
-    <color_code>#0000ff</color_code>
-    <version>2</version>
-    <adhesion_info />
+    <GUID>06418198-b839-4ad8-8e8f-b7b4504f3ccd</GUID>
     <compatible>True</compatible>
+    <version>2</version>
+    <color_code>#fff7da</color_code>
+    <description>DAS FILAMENT PLA, 800g, Diameter +/-0,05mm, 205°C-230°C, www.dasfilament.de</description>
+    <adhesion_info />
   </metadata>
   <properties>
-    <density>1.24</density>
     <diameter>1.75</diameter>
+    <density>1.24</density>
   </properties>
   <settings>
+    <setting key="standby temperature">170.0</setting>
+    <setting key="print temperature">200.0</setting>
     <setting key="heated bed temperature">55.0</setting>
     <setting key="print cooling">100.0</setting>
-    <setting key="print temperature">195.0</setting>
-    <setting key="standby temperature">170.0</setting>
   </settings>
 </fdmmaterial>
