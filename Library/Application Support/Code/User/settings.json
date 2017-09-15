@@ -11,9 +11,8 @@
 	"editor.renderControlCharacters": true,
 	"editor.renderIndentGuides": true,
 	"diffEditor.ignoreTrimWhitespace": false,
-	"workbench.colorTheme": "One Dark pro",
 	"workbench.iconTheme": "material-icon-theme",
-	"window.reopenFolders": "all",
+	"window.restoreWindows": "all",
 	"window.newWindowDimensions": "inherit",
 	"explorer.openEditors.visible": 0,
 	"explorer.autoReveal": false,
@@ -22,14 +21,16 @@
 		"**/vendor": true
 	},
 	"update.channel": "default",
-	"extensions.autoUpdate": false,
-	"rust.rls": {
-		// FIXME: using rls from nightly since it's not in stable yet
-		"executable": "rustup",
-		"args": ["run", "nightly", "rls"]
+
+	"rust.mode": "rls",
+	"rust.rustup": {
+		"toolchain": "stable-x86_64-apple-darwin"
 	},
-	"trailing-spaces.deleteModifiedLinesOnly": true,
-	"trailing-spaces.trimOnSave": true,
+	"rust.rls": {
+		"executable": "rustup",
+		"args": ["run", "nightly", "rls"],
+		"useRustfmt": true
+	},
 
 	"[ruby]": {
 		"editor.tabSize": 2,
@@ -43,5 +44,8 @@
 	"[yaml]": {
 		"editor.tabSize": 2,
 		"editor.insertSpaces": true
-	}
+	},
+
+	"trailing-spaces.deleteModifiedLinesOnly": true,
+	"trailing-spaces.trimOnSave": true
 }
