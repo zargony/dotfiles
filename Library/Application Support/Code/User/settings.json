@@ -22,16 +22,6 @@
 	},
 	"update.channel": "default",
 
-	"rust.mode": "rls",
-	"rust.rustup": {
-		"toolchain": "stable-x86_64-apple-darwin"
-	},
-	"rust.rls": {
-		"executable": "rustup",
-		"args": ["run", "nightly", "rls"],
-		"useRustfmt": true
-	},
-
 	"[ruby]": {
 		"editor.tabSize": 2,
 		"editor.insertSpaces": true
