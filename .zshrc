@@ -52,7 +52,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(bundler cargo docker docker-compose gem npm nvm rake rbenv rust themes)
+plugins=(bundler cargo docker docker-compose gem npm nvm rake rbenv rust terraform themes)
 
 source $ZSH/oh-my-zsh.sh
 
