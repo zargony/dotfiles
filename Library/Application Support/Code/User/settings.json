@@ -10,6 +10,7 @@
 	"editor.renderWhitespace": "boundary",
 	"editor.renderControlCharacters": true,
 	"editor.renderIndentGuides": true,
+	"editor.dragAndDrop": false,
 	"diffEditor.ignoreTrimWhitespace": false,
 	"workbench.iconTheme": "material-icon-theme",
 	"window.restoreWindows": "all",
