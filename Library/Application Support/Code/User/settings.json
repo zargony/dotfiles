@@ -11,12 +11,14 @@
 	"editor.renderWhitespace": "boundary",
 	"editor.renderControlCharacters": true,
 	"editor.renderIndentGuides": true,
+	"editor.renderLineHighlight": "all",
 	"editor.dragAndDrop": false,
 	"diffEditor.ignoreTrimWhitespace": false,
 	"workbench.fontAliasing": "antialiased",
 	"workbench.iconTheme": "material-icon-theme",
-	"window.restoreWindows": "all",
+	"window.restoreWindows": "folders",
 	"window.newWindowDimensions": "inherit",
+	"window.closeWhenEmpty": true,
 	"explorer.openEditors.visible": 0,
 	"explorer.autoReveal": false,
 	"search.exclude": {
@@ -24,6 +26,8 @@
 		"**/vendor": true
 	},
 	"update.channel": "default",
+	"terminal.external.osxExec": "iTerm.app",
+	"terminal.integrated.fontSize": 14,
 
 	"[ruby]": {
 		"editor.tabSize": 2,
@@ -33,10 +37,6 @@
 		"editor.tabSize": 4,
 		"editor.insertSpaces": true,
 		"editor.wordWrapColumn": 99
-	},
-	"[yaml]": {
-		"editor.tabSize": 2,
-		"editor.insertSpaces": true
 	},
 
 	"trailing-spaces.deleteModifiedLinesOnly": true,
