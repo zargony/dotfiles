@@ -40,5 +40,8 @@
 	},
 
 	"trailing-spaces.deleteModifiedLinesOnly": true,
-	"trailing-spaces.trimOnSave": true
+	"trailing-spaces.trimOnSave": true,
+	"ruby.lint": {
+		"ruby": true
+	}
 }
