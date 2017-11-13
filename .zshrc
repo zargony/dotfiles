@@ -9,6 +9,13 @@ export ZSH=$HOME/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
 
+# Set list of themes to load
+# Setting this variable when ZSH_THEME=random
+# cause zsh load theme from this variable instead of
+# looking in ~/.oh-my-zsh/themes/
+# An empty array have no effect
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -52,7 +59,22 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(bundler cargo docker docker-compose gem npm nvm rake rbenv rust terraform themes)
+plugins=(
+  aws
+  bundler
+  cargo
+  docker
+  docker-compose
+  gem
+  iterm2
+  npm
+  nvm
+  rake
+  rbenv
+  rust
+  terraform
+  themes
+)
 
 source $ZSH/oh-my-zsh.sh
 
