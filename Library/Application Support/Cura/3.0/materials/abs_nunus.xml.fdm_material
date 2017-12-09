@@ -23,5 +23,7 @@
     <setting key="print temperature">230.0</setting>
     <setting key="heated bed temperature">90.0</setting>
     <setting key="print cooling">0.0</setting>
+    <setting key="retraction amount">4.2</setting>
+    <setting key="retraction speed">50.0</setting>
   </settings>
 </fdmmaterial>
