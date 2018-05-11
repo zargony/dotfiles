@@ -30,6 +30,30 @@
 	"update.channel": "default",
 	"terminal.external.osxExec": "iTerm.app",
 	"terminal.integrated.fontSize": 14,
+	"todohighlight.keywords": [
+		"TODO",
+		"OPTIMIZE",
+		"NOTE",
+		{
+			"text": "FIXME",
+			"backgroundColor": "rgb(223,82,58)",
+			"overviewRulerColor": "rgba(223,82,58,0.8)",
+			"border": "1px solid rgb(223,82,58)",
+			},
+		{
+			"text": "XXX",
+			"backgroundColor": "rgb(245,0,87)",
+			"overviewRulerColor": "rgb(245,0,87)",
+			"border": "1px solid rgb(245,0,87)",
+		}
+	],
+	"todohighlight.defaultStyle": {
+		"color": "#eee",
+		"backgroundColor": "rgb(204,151,33)",
+		"overviewRulerColor": "rgba(204,151,33,0.8)",
+		"border": "1px solid rgb(204,151,33)",
+		"borderRadius": "2px"
+	},
 	"ruby.lint": {
 		"ruby": true
 	},
