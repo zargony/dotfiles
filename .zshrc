@@ -74,6 +74,7 @@ plugins=(
   rust
   terraform
   themes
+  vscode
 )
 
 source $ZSH/oh-my-zsh.sh
