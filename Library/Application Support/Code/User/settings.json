@@ -16,6 +16,7 @@
 	"editor.renderLineHighlight": "all",
 	"editor.renderWhitespace": "boundary",
 	"editor.tabSize": 4,
+	"workbench.colorTheme": "Kary Pro Colors － Dark",
 	"workbench.fontAliasing": "antialiased",
 	"workbench.iconTheme": "material-icon-theme",
 	"window.closeWhenEmpty": true,
@@ -68,5 +69,5 @@
 		"editor.insertSpaces": true,
 		"editor.tabSize": 4,
 		"editor.wordWrapColumn": 99
-	}
+	},
 }
