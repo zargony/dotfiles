@@ -7,23 +7,23 @@
       <color>Generic</color>
       <label>NuNus ABS</label>
     </name>
-    <GUID>fed10cf3-a59c-4448-a3d9-f0ac4df73325</GUID>
-    <compatible>True</compatible>
-    <version>2</version>
-    <color_code>#ff7f00</color_code>
     <description>NuNus ABS, 1kg, Diameter +/-0,1mm, Roundness +/-0,06mm, 230°C-260°C, www.nunus-filamente.com</description>
+    <GUID>fed10cf3-a59c-4448-a3d9-f0ac4df73325</GUID>
     <adhesion_info />
+    <version>2</version>
+    <compatible>True</compatible>
+    <color_code>#ff7f00</color_code>
   </metadata>
   <properties>
-    <diameter>1.75</diameter>
     <density>1.10</density>
+    <diameter>1.75</diameter>
   </properties>
   <settings>
     <setting key="standby temperature">170.0</setting>
-    <setting key="print temperature">230.0</setting>
     <setting key="heated bed temperature">90.0</setting>
-    <setting key="print cooling">0.0</setting>
+    <setting key="print temperature">230.0</setting>
     <setting key="retraction amount">4.2</setting>
+    <setting key="print cooling">0.0</setting>
     <setting key="retraction speed">50.0</setting>
   </settings>
 </fdmmaterial>
