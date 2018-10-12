@@ -11,9 +11,6 @@ export PATH=$HOME/.local/bin:$PATH
 # Rust - https://www.rustup.rs/
 [[ -f $HOME/.cargo/env ]] && source $HOME/.cargo/env
 
-# Rust sccache - https://github.com/mozilla/sccache/
-[[ -x $HOME/.cargo/bin/sccache ]] && export RUSTC_WRAPPER=$HOME/.cargo/bin/sccache
-
 # Node.js (nvm)
 if [[ -f /usr/local/opt/nvm/nvm.sh ]]; then
 	export NVM_DIR=$HOME/.nvm
