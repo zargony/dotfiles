@@ -71,6 +71,7 @@ plugins=(
   docker-compose
   gem
   iterm2
+  kubectl
   npm
   nvm
   rake
