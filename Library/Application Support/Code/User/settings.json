@@ -16,6 +16,7 @@
 	"editor.renderLineHighlight": "all",
 	"editor.renderWhitespace": "boundary",
 	"editor.tabSize": 4,
+	"explorer.confirmDelete": false,
 	"workbench.colorTheme": "Kary Pro Colors － Dark",
 	"workbench.fontAliasing": "antialiased",
 	"workbench.iconTheme": "material-icon-theme",
@@ -58,6 +59,7 @@
 	"ruby.lint": {
 		"ruby": true
 	},
+	"rust.clippy_preference": "on",
 	"trailing-spaces.deleteModifiedLinesOnly": true,
 	"trailing-spaces.trimOnSave": true,
 
