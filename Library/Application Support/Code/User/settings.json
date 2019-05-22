@@ -1,7 +1,7 @@
 {
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.dragAndDrop": false,
-	"editor.fontFamily": "Iosevka",
+	"editor.fontFamily": "Iosevka Slab",
 	"editor.fontLigatures": true,
 	"editor.fontSize": 16,
 	"editor.insertSpaces": false,
@@ -15,8 +15,8 @@
 	"editor.renderWhitespace": "boundary",
 	"editor.tabSize": 4,
 	"explorer.confirmDelete": false,
-	"workbench.colorTheme": "Kary Pro Colors － Dark",
-	"workbench.fontAliasing": "antialiased",
+	"workbench.colorTheme": "Solarized Dark",
+	"workbench.fontAliasing": "auto",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.settings.editor": "json",
 	"window.closeWhenEmpty": true,
@@ -30,6 +30,8 @@
 	"search.smartCase": true,
 	"terminal.external.osxExec": "iTerm.app",
 	"terminal.integrated.fontSize": 14,
+
+	"crates.listPreReleases": true,
 	"todohighlight.keywords": [
 		"TODO",
 		"OPTIMIZE",
