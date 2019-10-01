@@ -1,4 +1,5 @@
 set -gx EDITOR vim
+set -gx LANG en_US.UTF-8
 set -gx PATH $HOME/.local/bin $PATH
 
 # Homebrew OpenSSL
