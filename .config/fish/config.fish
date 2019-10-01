@@ -13,6 +13,11 @@ if test -x $HOME/.cargo/bin
     set -gx PATH $HOME/.cargo/bin $PATH
 end
 
+# Starship prompt - https://starship.rs/
+if test -x $HOME/.cargo/bin/starship
+    eval ($HOME/.cargo/bin/starship init fish)
+end
+
 # Rust sccache - https://github.com/mozilla/sccache/
 if test -x $HOME/.cargo/bin/sccache
     set -gx RUSTC_WRAPPER $HOME/.cargo/bin/sccache
