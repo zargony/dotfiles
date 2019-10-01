@@ -6,6 +6,8 @@
 	excludesfile = ~/.gitignore
 	precomposeunicode = true
 	quotepath = false
+[credential]
+	helper = osxkeychain
 [color]
 	ui = auto
 [alias]
@@ -13,12 +15,12 @@
 	ci = commit
 	co = checkout
 	st = status
+[commit]
+	#gpgsign = true
 [pull]
 	rebase = true
 [rebase]
 	autostash = true
-[merge]
-	conflictstyle = diff3
 [push]
 	default = upstream
 [pack]
