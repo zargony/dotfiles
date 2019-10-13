@@ -13,11 +13,11 @@
 	"editor.renderIndentGuides": true,
 	"editor.renderLineHighlight": "all",
 	"editor.renderWhitespace": "boundary",
+	"editor.rulers": [80, 100],
 	"editor.tabSize": 4,
 	"explorer.confirmDelete": false,
-	"workbench.colorTheme": "Solarized Dark",
 	"workbench.fontAliasing": "auto",
-	"workbench.iconTheme": "material-icon-theme",
+	"workbench.iconTheme": "vscode-icons",
 	"workbench.settings.editor": "json",
 	"window.closeWhenEmpty": true,
 	"window.newWindowDimensions": "inherit",
@@ -67,6 +67,7 @@
 	},
 	"[rust]": {
 		"editor.insertSpaces": true,
+		"editor.formatOnSave": true,
 		"editor.tabSize": 4,
 		"editor.wordWrapColumn": 99
 	},
