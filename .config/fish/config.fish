@@ -15,7 +15,7 @@ end
 
 # Starship prompt - https://starship.rs/
 if test -x $HOME/.cargo/bin/starship
-    eval ($HOME/.cargo/bin/starship init fish)
+    $HOME/.cargo/bin/starship init fish |source
 end
 
 # Rust sccache - https://github.com/mozilla/sccache/

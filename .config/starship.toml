@@ -5,4 +5,4 @@ truncation_length = 2
 fish_style_pwd_dir_length = 1
 
 [line_break]
-disabled = true
+#disabled = true
