@@ -61,9 +61,9 @@ colors:
 
 background_opacity: 0.97
 
-selection:
+selection: {}
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
-  save_to_clipboard: true
+  #save_to_clipboard: true
 
 dynamic_title: true
 
@@ -71,3 +71,19 @@ shell:
   program: /usr/local/bin/fish
   args:
     - --login
+
+key_bindings:
+  # Disable <Cmd> key related bindings because of https://github.com/alacritty/alacritty/issues/3188
+  - { key: Key0,   mods: Command, action: None }
+  - { key: Equals, mods: Command, action: None }
+  - { key: Add,    mods: Command, action: None }
+  - { key: Minus,  mods: Command, action: None }
+  #- { key: K,      mods: Command, action: None }
+  #- { key: V,      mods: Command, action: None }
+  #- { key: C,      mods: Command, action: None }
+  - { key: H,      mods: Command, action: None }
+  - { key: M,      mods: Command, action: None }
+  - { key: Q,      mods: Command, action: None }
+  - { key: W,      mods: Command, action: None }
+  - { key: F,      mods: Command, action: None }
+  - { key: Return,    mods: Command,            action: None }
