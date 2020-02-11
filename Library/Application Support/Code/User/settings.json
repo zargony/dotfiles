@@ -16,12 +16,6 @@
 	"editor.rulers": [80, 100],
 	"editor.tabSize": 4,
 	"explorer.confirmDelete": false,
-	"workbench.fontAliasing": "auto",
-	"workbench.iconTheme": "vscode-icons",
-	"workbench.settings.editor": "json",
-	"window.closeWhenEmpty": true,
-	"window.newWindowDimensions": "inherit",
-	"window.restoreWindows": "all",
 	"explorer.openEditors.visible": 0,
 	"search.exclude": {
 		"**/target": true,
@@ -30,8 +24,30 @@
 	"search.smartCase": true,
 	"terminal.external.osxExec": "iTerm.app",
 	"terminal.integrated.fontSize": 14,
+	"window.closeWhenEmpty": true,
+	"window.newWindowDimensions": "inherit",
+	"window.restoreWindows": "all",
+	"workbench.colorTheme": "Material Theme Darker High Contrast",
+	"workbench.fontAliasing": "auto",
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.settings.editor": "json",
+
+	"[ruby]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+	"[rust]": {
+		"editor.insertSpaces": true,
+		"editor.formatOnSave": true,
+		"editor.tabSize": 4,
+		"editor.wordWrapColumn": 99
+	},
 
 	"crates.listPreReleases": true,
+	"ruby.lint": {
+		"ruby": true
+	},
+	"rust.clippy_preference": "on",
 	"todohighlight.keywords": [
 		"TODO",
 		"OPTIMIZE",
@@ -54,21 +70,6 @@
 		"border": "none",
 		"borderRadius": "2px"
 	},
-	"ruby.lint": {
-		"ruby": true
-	},
-	"rust.clippy_preference": "on",
 	"trailing-spaces.deleteModifiedLinesOnly": true,
 	"trailing-spaces.trimOnSave": true,
-
-	"[ruby]": {
-		"editor.insertSpaces": true,
-		"editor.tabSize": 2
-	},
-	"[rust]": {
-		"editor.insertSpaces": true,
-		"editor.formatOnSave": true,
-		"editor.tabSize": 4,
-		"editor.wordWrapColumn": 99
-	},
 }
