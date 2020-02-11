@@ -18,7 +18,7 @@ if test -x /usr/local/bin/sccache
 end
 
 # Homebrew OpenSSL
-#if test -d /usr/local/opt/openssl
-#    set -gx OPENSSL_LIB_DIR /usr/local/opt/openssl/lib
-#    set -gx OPENSSL_INCLUDE_DIR /usr/local/opt/openssl/include
+#if test -d /usr/local/opt/openssl@1.1
+#    set -gx OPENSSL_LIB_DIR /usr/local/opt/openssl@1.1/lib
+#    set -gx OPENSSL_INCLUDE_DIR /usr/local/opt/openssl@1.1/include
 #end

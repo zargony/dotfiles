@@ -31,8 +31,6 @@
     onlyHighlightWholeWords: true
   linter:
     showErrorPanel: false
-  "linter-ruby":
-    rubyExecutablePath: "/usr/local/var/rbenv/shims/ruby"
   "linter-rust":
     cargoPath: "/usr/local/bin/cargo"
     rustcPath: "/usr/local/bin/rustc"

@@ -32,10 +32,6 @@
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.settings.editor": "json",
 
-	"[ruby]": {
-		"editor.insertSpaces": true,
-		"editor.tabSize": 2
-	},
 	"[rust]": {
 		"editor.insertSpaces": true,
 		"editor.formatOnSave": true,
@@ -44,9 +40,6 @@
 	},
 
 	"crates.listPreReleases": true,
-	"ruby.lint": {
-		"ruby": true
-	},
 	"rust.clippy_preference": "on",
 	"todohighlight.keywords": [
 		"TODO",

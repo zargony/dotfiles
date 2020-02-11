@@ -65,17 +65,11 @@ HIST_STAMPS="yyyy-mm-dd"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   aws
-  bundler
   cargo
   docker
   docker-compose
-  gem
   iterm2
   kubectl
-  npm
-  nvm
-  rake
-  rbenv
   rust
   terraform
   themes

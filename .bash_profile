@@ -19,6 +19,3 @@ alias l='ls -la'
 
 # Bash-completion
 [[ -f /usr/local/etc/bash_completion ]] && source /usr/local/etc/bash_completion
-
-# Ruby (rbenv and ruby-build)
-[[ -n "$(which rbenv)" ]] && eval "$(rbenv init -)"

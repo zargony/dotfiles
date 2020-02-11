@@ -86,4 +86,4 @@ key_bindings:
   - { key: Q,      mods: Command, action: None }
   - { key: W,      mods: Command, action: None }
   - { key: F,      mods: Command, action: None }
-  - { key: Return,    mods: Command,            action: None }
+  - { key: Return, mods: Command, action: None }
