@@ -5,8 +5,8 @@
 	"editor.fontLigatures": true,
 	"editor.fontSize": 16,
 	"editor.insertSpaces": false,
-	"editor.lineNumbers": "on",
 	"editor.lineHeight": 20,
+	"editor.lineNumbers": "on",
 	"editor.minimap.enabled": true,
 	"editor.minimap.showSlider": "always",
 	"editor.renderControlCharacters": true,
@@ -16,6 +16,7 @@
 	"editor.rulers": [80, 100],
 	"editor.tabSize": 4,
 	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
 	"explorer.openEditors.visible": 0,
 	"search.exclude": {
 		"**/target": true,
@@ -27,9 +28,9 @@
 	"window.closeWhenEmpty": true,
 	"window.newWindowDimensions": "inherit",
 	"window.restoreWindows": "all",
-	"workbench.colorTheme": "Material Theme Darker High Contrast",
+	"workbench.colorTheme": "Monokai Pro",
 	"workbench.fontAliasing": "auto",
-	"workbench.iconTheme": "vscode-icons",
+	"workbench.iconTheme": "Monokai Pro Icons",
 	"workbench.settings.editor": "json",
 
 	"[rust]": {
@@ -38,9 +39,25 @@
 		"editor.tabSize": 4,
 		"editor.wordWrapColumn": 99
 	},
+	"[toml]": {
+		"editor.formatOnSave": true,
+	},
+	"[yaml]": {
+		"editor.formatOnSave": true,
+	},
 
 	"crates.listPreReleases": true,
+
+	"gitlens.currentLine.enabled": false,
+
+	"gitProjectManager.baseProjectsFolders": ["~/Projects"],
+	"gitProjectManager.ignoredFolders": ["node_modules", "target"],
+
 	"rust.clippy_preference": "on",
+
+	"rust-analyzer.highlightingOn": true,
+	"rust-analyzer.displayInlayHints": false,
+
 	"todohighlight.keywords": [
 		"TODO",
 		"OPTIMIZE",
@@ -63,6 +80,9 @@
 		"border": "none",
 		"borderRadius": "2px"
 	},
+
 	"trailing-spaces.deleteModifiedLinesOnly": true,
 	"trailing-spaces.trimOnSave": true,
+
+	"vsicons.dontShowNewVersionMessage": true,
 }
