@@ -68,11 +68,11 @@ selection: {}
 dynamic_title: true
 
 shell:
-  program: /usr/local/bin/fish
-  args:
-    - --login
+  program: /usr/local/bin/tmux
+  args: ["-2", "-l", "-u", "new-session", "-A", "-s", "default"]
 
 key_bindings:
+  - { key: Comma,  mods: Command, command: { program: "/usr/local/bin/code", args: ["--new-window", "/Users/zargony/.config/alacritty/alacritty.yml", "/Users/zargony/.tmux.conf"] } }
   # Disable <Cmd> key related bindings because of https://github.com/alacritty/alacritty/issues/3188
   - { key: Key0,   mods: Command, action: None }
   - { key: Equals, mods: Command, action: None }
