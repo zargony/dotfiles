@@ -5,6 +5,9 @@ window:
   #position:
   #  x: 0
   #  y: 100
+  padding:
+    x: 3
+    y: 3
 
 scrolling:
   history: 10000
@@ -59,6 +62,11 @@ colors:
     cyan: '0x76bbca'
     white: '0xb2b5ae'
 
+visual_bell:
+  animation: EaseOutExpo
+  duration: 10
+  color: '0xffffff'
+
 background_opacity: 0.97
 
 selection: {}
@@ -72,7 +80,11 @@ shell:
   args: ["-2", "-l", "-u", "new-session", "-A", "-s", "default"]
 
 key_bindings:
-  - { key: Comma,  mods: Command, command: { program: "/usr/local/bin/code", args: ["--new-window", "/Users/zargony/.config/alacritty/alacritty.yml", "/Users/zargony/.tmux.conf"] } }
+  - { key: N,        mods: Command,       action: SpawnNewInstance }
+  - { key: T,        mods: Command,       chars: "\x02c" }
+  - { key: Comma,    mods: Command,       command: { program: "/usr/local/bin/code", args: ["--new-window", "/Users/zargony/.config/alacritty/alacritty.yml", "/Users/zargony/.tmux.conf"] } }
+  - { key: LBracket, mods: Command|Shift, chars: "\x02p" }
+  - { key: RBracket, mods: Command|Shift, chars: "\x02n" }
   # Disable <Cmd> key related bindings because of https://github.com/alacritty/alacritty/issues/3188
   - { key: Key0,   mods: Command, action: None }
   - { key: Equals, mods: Command, action: None }
