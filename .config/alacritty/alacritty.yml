@@ -1,7 +1,7 @@
 window:
   dimensions:
     columns: 170
-    lines: 35
+    lines: 40
   #position:
   #  x: 0
   #  y: 100
@@ -82,6 +82,7 @@ shell:
 key_bindings:
   - { key: N,        mods: Command,       action: SpawnNewInstance }
   - { key: T,        mods: Command,       chars: "\x02c" }
+  - { key: W,        mods: Command,       chars: "\x02&" }
   - { key: Comma,    mods: Command,       command: { program: "/usr/local/bin/code", args: ["--new-window", "/Users/zargony/.config/alacritty/alacritty.yml", "/Users/zargony/.tmux.conf"] } }
   - { key: LBracket, mods: Command|Shift, chars: "\x02p" }
   - { key: RBracket, mods: Command|Shift, chars: "\x02n" }
@@ -96,6 +97,6 @@ key_bindings:
   - { key: H,      mods: Command, action: None }
   - { key: M,      mods: Command, action: None }
   - { key: Q,      mods: Command, action: None }
-  - { key: W,      mods: Command, action: None }
+  #- { key: W,      mods: Command, action: None }
   - { key: F,      mods: Command, action: None }
   - { key: Return, mods: Command, action: None }
