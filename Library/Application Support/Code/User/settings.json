@@ -53,10 +53,10 @@
 	"gitProjectManager.baseProjectsFolders": ["~/Projects"],
 	"gitProjectManager.ignoredFolders": ["node_modules", "target"],
 
-	"rust.clippy_preference": "on",
-
-	"rust-analyzer.highlightingOn": true,
-	"rust-analyzer.displayInlayHints": false,
+	// "rust-analyzer.inlayHints.chainingHints": false,
+	// "rust-analyzer.inlayHints.enable": false,
+	// "rust-analyzer.inlayHints.parameterHints": false,
+	// "rust-analyzer.inlayHints.typeHints": false,
 
 	"todohighlight.keywords": [
 		"TODO",
@@ -85,4 +85,6 @@
 	"trailing-spaces.trimOnSave": true,
 
 	"vsicons.dontShowNewVersionMessage": true,
+
+
 }
