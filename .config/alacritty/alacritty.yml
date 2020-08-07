@@ -8,6 +8,8 @@ window:
   padding:
     x: 3
     y: 3
+  title: Alacritty
+  dynamic_title: true
 
 scrolling:
   history: 10000
@@ -27,7 +29,7 @@ font:
   offset:
     x: 0
     y: -2
-  #use_thin_strokes: true
+  use_thin_strokes: true
 
 draw_bold_text_with_bright_colors: false
 
@@ -92,7 +94,7 @@ schemes:
 
 colors: *dark
 
-visual_bell:
+bell:
   animation: EaseOutExpo
   duration: 10
   color: "0xffffff"
@@ -102,8 +104,6 @@ background_opacity: 0.97
 selection: {}
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   #save_to_clipboard: true
-
-dynamic_title: true
 
 shell:
   program: /usr/local/bin/tmux
