@@ -6,6 +6,8 @@
 	excludesfile = ~/.gitignore
 	precomposeunicode = true
 	quotepath = false
+[protocol]
+	version = 2
 [credential]
 	helper = osxkeychain
 [color]
