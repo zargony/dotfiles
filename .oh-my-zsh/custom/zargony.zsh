@@ -14,5 +14,5 @@ export PATH=$HOME/.local/bin:$PATH
 [[ -d /usr/local/Homebrew/completions/zsh ]] && fpath=(/usr/local/Homebrew/completions/zsh $fpath)
 
 # Homebrew OpenSSL
-#[[ -d /usr/local/opt/openssl@1.1/lib ]] && export OPENSSL_LIB_DIR=/usr/local/opt/openssl@1.1/lib
-#[[ -d /usr/local/opt/openssl@1.1/include ]] && export OPENSSL_INCLUDE_DIR=/usr/local/opt/openssl@1.1/include
+[[ -d /usr/local/opt/openssl@1.1/lib ]] && export OPENSSL_LIB_DIR=/usr/local/opt/openssl@1.1/lib
+[[ -d /usr/local/opt/openssl@1.1/include ]] && export OPENSSL_INCLUDE_DIR=/usr/local/opt/openssl@1.1/include

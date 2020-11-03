@@ -3,12 +3,12 @@ set -gx LANG en_US.UTF-8
 set -gx PATH $HOME/.local/bin $PATH
 
 # Homebrew OpenSSL
-#if test -d /usr/local/opt/openssl@1.1
-#    set -gx OPENSSL_DIR /usr/local/opt/openssl@1.1
-#    set -gx OPENSSL_LIB_DIR $OPENSSL_DIR/lib
-#    set -gx OPENSSL_INCLUDE_DIR $OPENSSL_DIR/include
-#    set -gx PKG_CONFIG_PATH $OPENSSL_DIR/lib/pkgconfig $PKG_CONFIG_PATH
-#end
+if test -d /usr/local/opt/openssl@1.1
+    set -gx OPENSSL_DIR /usr/local/opt/openssl@1.1
+    set -gx OPENSSL_LIB_DIR $OPENSSL_DIR/lib
+    set -gx OPENSSL_INCLUDE_DIR $OPENSSL_DIR/include
+    set -gx PKG_CONFIG_PATH $OPENSSL_DIR/lib/pkgconfig $PKG_CONFIG_PATH
+end
 
 # Rust - https://www.rustup.rs/
 if test -x $HOME/.cargo/bin
