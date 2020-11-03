@@ -1,0 +1,1 @@
+/usr/local/Homebrew/completions/fish/brew.fish
