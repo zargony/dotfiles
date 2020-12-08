@@ -51,7 +51,10 @@
     "gitlens.currentLine.enabled": false,
 
     "gitProjectManager.baseProjectsFolders": ["~/Projects"],
-    "gitProjectManager.ignoredFolders": ["node_modules", "target"],
+    "gitProjectManager.displayProjectPath": true,
+    "gitProjectManager.ignoredFolders": ["node_modules", "target", ".sync"],
+    "gitProjectManager.searchInsideProjects": false,
+    "gitProjectManager.storeRepositoriesBetweenSessions": true,
 
     // "rust-analyzer.inlayHints.chainingHints": false,
     // "rust-analyzer.inlayHints.enable": false,
