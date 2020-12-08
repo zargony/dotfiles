@@ -1,90 +1,90 @@
 {
-	"diffEditor.ignoreTrimWhitespace": false,
-	"editor.dragAndDrop": false,
-	"editor.fontFamily": "Iosevka Slab",
-	"editor.fontLigatures": true,
-	"editor.fontSize": 16,
-	"editor.insertSpaces": false,
-	"editor.lineHeight": 20,
-	"editor.lineNumbers": "on",
-	"editor.minimap.enabled": true,
-	"editor.minimap.showSlider": "always",
-	"editor.renderControlCharacters": true,
-	"editor.renderIndentGuides": true,
-	"editor.renderLineHighlight": "all",
-	"editor.renderWhitespace": "boundary",
-	"editor.rulers": [80, 100],
-	"editor.tabSize": 4,
-	"explorer.confirmDelete": false,
-	"explorer.confirmDragAndDrop": false,
-	"explorer.openEditors.visible": 0,
-	"search.exclude": {
-		"**/target": true,
-		"**/vendor": true
-	},
-	"search.smartCase": true,
-	"terminal.external.osxExec": "iTerm.app",
-	"terminal.integrated.fontSize": 14,
-	"window.closeWhenEmpty": true,
-	"window.newWindowDimensions": "inherit",
-	"window.restoreWindows": "all",
-	"workbench.colorTheme": "Monokai Pro",
-	"workbench.fontAliasing": "auto",
-	"workbench.iconTheme": "Monokai Pro Icons",
-	"workbench.settings.editor": "json",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.dragAndDrop": false,
+    "editor.fontFamily": "Iosevka Slab",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.insertSpaces": false,
+    "editor.lineHeight": 20,
+    "editor.lineNumbers": "on",
+    "editor.minimap.enabled": true,
+    "editor.minimap.showSlider": "always",
+    "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": true,
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [80, 100],
+    "editor.tabSize": 4,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.openEditors.visible": 0,
+    "search.exclude": {
+        "**/target": true,
+        "**/vendor": true
+    },
+    "search.smartCase": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontSize": 14,
+    "window.closeWhenEmpty": true,
+    "window.newWindowDimensions": "inherit",
+    "window.restoreWindows": "all",
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.fontAliasing": "auto",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.settings.editor": "json",
 
-	"[rust]": {
-		"editor.insertSpaces": true,
-		"editor.formatOnSave": true,
-		"editor.tabSize": 4,
-		"editor.wordWrapColumn": 99
-	},
-	"[toml]": {
-		"editor.formatOnSave": true,
-	},
-	"[yaml]": {
-		"editor.formatOnSave": true,
-	},
+    "[rust]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.wordWrapColumn": 99
+    },
+    "[toml]": {
+        "editor.formatOnSave": true,
+    },
+    "[yaml]": {
+        "editor.formatOnSave": true,
+    },
 
-	"crates.listPreReleases": true,
+    "crates.listPreReleases": true,
 
-	"gitlens.currentLine.enabled": false,
+    "gitlens.currentLine.enabled": false,
 
-	"gitProjectManager.baseProjectsFolders": ["~/Projects"],
-	"gitProjectManager.ignoredFolders": ["node_modules", "target"],
+    "gitProjectManager.baseProjectsFolders": ["~/Projects"],
+    "gitProjectManager.ignoredFolders": ["node_modules", "target"],
 
-	// "rust-analyzer.inlayHints.chainingHints": false,
-	// "rust-analyzer.inlayHints.enable": false,
-	// "rust-analyzer.inlayHints.parameterHints": false,
-	// "rust-analyzer.inlayHints.typeHints": false,
+    // "rust-analyzer.inlayHints.chainingHints": false,
+    // "rust-analyzer.inlayHints.enable": false,
+    // "rust-analyzer.inlayHints.parameterHints": false,
+    // "rust-analyzer.inlayHints.typeHints": false,
 
-	"todohighlight.keywords": [
-		"TODO",
-		"OPTIMIZE",
-		"NOTE",
-		{
-			"text": "FIXME",
-			"backgroundColor": "rgb(223, 80, 32)",
-			"overviewRulerColor": "rgb(223, 80, 32)",
-			},
-		{
-			"text": "XXX",
-			"backgroundColor": "rgb(223, 32, 80)",
-			"overviewRulerColor": "rgb(223, 32, 80)",
-		}
-	],
-	"todohighlight.defaultStyle": {
-		"color": "#eee",
-		"backgroundColor": "rgb(223, 175, 32)",
-		"overviewRulerColor": "rgb(223, 175, 32)",
-		"border": "none",
-		"borderRadius": "2px"
-	},
+    "todohighlight.keywords": [
+        "TODO",
+        "OPTIMIZE",
+        "NOTE",
+        {
+            "text": "FIXME",
+            "backgroundColor": "rgb(223, 80, 32)",
+            "overviewRulerColor": "rgb(223, 80, 32)",
+            },
+        {
+            "text": "XXX",
+            "backgroundColor": "rgb(223, 32, 80)",
+            "overviewRulerColor": "rgb(223, 32, 80)",
+        }
+    ],
+    "todohighlight.defaultStyle": {
+        "color": "#eee",
+        "backgroundColor": "rgb(223, 175, 32)",
+        "overviewRulerColor": "rgb(223, 175, 32)",
+        "border": "none",
+        "borderRadius": "2px"
+    },
 
-	"trailing-spaces.deleteModifiedLinesOnly": true,
-	"trailing-spaces.trimOnSave": true,
+    "trailing-spaces.deleteModifiedLinesOnly": true,
+    "trailing-spaces.trimOnSave": true,
 
-	"vsicons.dontShowNewVersionMessage": true,
+    "vsicons.dontShowNewVersionMessage": true,
 
 
 }
