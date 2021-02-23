@@ -1,0 +1,8 @@
+[alias]
+ci-check = "check --all --all-targets --all-features"
+ci-clippy = "clippy --all --all-targets --all-features" # -- -Dwarnings -Drust-2018-idioms -Adeprecated
+ci-format = "fmt --all -- --check"
+ci-test = "test --all --all-targets --all-features"
+
+[net]
+#git-fetch-with-cli = true
