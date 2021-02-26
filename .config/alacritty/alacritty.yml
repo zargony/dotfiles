@@ -2,22 +2,16 @@ window:
   dimensions:
     columns: 170
     lines: 40
-  #position:
-  #  x: 0
-  #  y: 100
   padding:
     x: 3
     y: 3
-  title: Alacritty
-  dynamic_title: true
 
 scrolling:
   history: 10000
-  #auto_scroll: true
 
 font:
   normal:
-    family: "Iosevka Term Slab"
+    family: Iosevka Term Slab
     style: Extralight
   bold:
     style: Medium
@@ -38,13 +32,13 @@ schemes:
     primary:
       background: "0x141414"
       foreground: "0xf7f6ec"
-      #dim_foreground: '0x9a9a9a'
-      #bright_foreground: '0xffffff'
+      #dim_foreground: "0x9a9a9a"
+      #bright_foreground: "0xffffff"
     cursor:
-      text: "0x343935"
+      text: CellBackground
       cursor: "0xedcf44"
     selection:
-      #text: '0xf7f6ec'
+      text: CellForeground
       background: "0x175877"
     normal:
       black: "0x343935"
@@ -69,9 +63,10 @@ schemes:
       background: "0xf1f1f1"
       foreground: "0x333333"
     cursor:
-      text: "0x343935"
+      text: CellBackground
       cursor: "0xedcf44"
     selection:
+      text: CellForeground
       background: "0xeaf5ff"
     normal:
       black: "0x343935"
@@ -105,14 +100,15 @@ selection: {}
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   #save_to_clipboard: true
 
+live_config_reload: true
+
 shell:
   program: /usr/local/bin/tmux
-  args: ["-2", "-l", "-u", "new-session", "-A", "-s", "default"]
+  args: ["-2", "-l", "-u", "new-session", "-t", "term"]
 
 key_bindings:
   - { key: N,        mods: Command,       action: SpawnNewInstance }
   - { key: T,        mods: Command,       chars: "\x02c" }
-  - { key: W,        mods: Command,       chars: "\x02&" }
-  - { key: Comma,    mods: Command,       command: { program: "/usr/local/bin/code", args: ["--new-window", "/Users/zargony/.config/alacritty/alacritty.yml", "/Users/zargony/.tmux.conf"] } }
+  - { key: Comma,    mods: Command,       command: { program: "/usr/local/bin/code", args: ["--new-window", ".config/alacritty/alacritty.yml", ".tmux.conf"] } }
   - { key: LBracket, mods: Command|Shift, chars: "\x02p" }
   - { key: RBracket, mods: Command|Shift, chars: "\x02n" }
