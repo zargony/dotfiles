@@ -1,3 +1,5 @@
+# See https://github.com/alacritty/alacritty/blob/master/alacritty.yml
+
 window:
   dimensions:
     columns: 170
@@ -7,7 +9,8 @@ window:
     y: 3
 
 scrolling:
-  history: 10000
+  #history: 10000
+  history: 0
 
 font:
   normal:
@@ -103,12 +106,12 @@ selection: {}
 live_config_reload: true
 
 shell:
-  program: /usr/local/bin/tmux
-  args: ["-2", "-l", "-u", "new-session", "-t", "term"]
+  program: /usr/local/bin/fish
+  args: ["-c", "zellij"]
 
 key_bindings:
   - { key: N,        mods: Command,       action: SpawnNewInstance }
-  - { key: T,        mods: Command,       chars: "\x02c" }
-  - { key: Comma,    mods: Command,       command: { program: "/usr/local/bin/code", args: ["--new-window", ".config/alacritty/alacritty.yml", ".tmux.conf"] } }
-  - { key: LBracket, mods: Command|Shift, chars: "\x02p" }
-  - { key: RBracket, mods: Command|Shift, chars: "\x02n" }
+  - { key: T,        mods: Command,       chars: "\x14n\x14" }
+  - { key: Comma,    mods: Command,       command: { program: "/usr/local/bin/code", args: ["--new-window", ".config/alacritty/alacritty.yml", ".config/zellij/config.yaml"] } }
+  - { key: LBracket, mods: Command|Shift, chars: "\x14k\x14" }
+  - { key: RBracket, mods: Command|Shift, chars: "\x14l\x14" }

@@ -1,0 +1,7 @@
+# See https://github.com/zellij-org/zellij/blob/main/example/default.yaml
+
+keybinds:
+  unbind: false
+  #normal:
+  #  - action: [SwitchToMode: Locked]
+  #    key: [Ctrl: 'g',]
