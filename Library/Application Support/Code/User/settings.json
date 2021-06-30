@@ -18,6 +18,7 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.openEditors.visible": 0,
+    "redhat.telemetry.enabled": false,
     "search.exclude": {
         "**/target": true,
         "**/vendor": true
@@ -94,7 +95,8 @@
     "trailing-spaces.deleteModifiedLinesOnly": true,
     "trailing-spaces.trimOnSave": true,
 
+    "vscode-kubernetes.helm-path": "/usr/local/bin/helm",
+    "vscode-kubernetes.kubectl-path": "/usr/local/bin/kubectl",
+
     "vsicons.dontShowNewVersionMessage": true,
-
-
 }
