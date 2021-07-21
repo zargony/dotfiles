@@ -106,8 +106,8 @@ selection: {}
 live_config_reload: true
 
 shell:
-  program: /usr/local/bin/fish
-  args: ["-c", "zellij"]
+  program: /usr/local/bin/zellij
+  args: ["options", "--default-shell", "/usr/local/bin/fish"]
 
 key_bindings:
   - { key: N,        mods: Command,       action: SpawnNewInstance }
