@@ -26,13 +26,16 @@
     "search.smartCase": true,
     "terminal.external.osxExec": "Alacritty.app",
     "terminal.integrated.fontSize": 14,
+    "window.autoDetectColorScheme": true,
     "window.closeWhenEmpty": true,
     "window.newWindowDimensions": "inherit",
     "window.restoreWindows": "all",
-    "workbench.colorTheme": "Monokai Pro",
+    "workbench.colorTheme": "Default Light+",
     "workbench.fontAliasing": "auto",
     "workbench.iconTheme": "Monokai Pro Icons",
     "workbench.settings.editor": "json",
+    "workbench.preferredDarkColorTheme": "Monokai Pro",
+    "workbench.preferredLightColorTheme": "Default Light+",
 
     "[json]": {
         "editor.formatOnSave": true,
