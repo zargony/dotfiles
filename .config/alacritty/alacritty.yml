@@ -9,8 +9,7 @@ window:
     y: 3
 
 scrolling:
-  #history: 10000
-  history: 0
+  history: 10000
 
 font:
   normal:
@@ -112,6 +111,6 @@ shell:
 key_bindings:
   - { key: N,        mods: Command,       action: SpawnNewInstance }
   - { key: T,        mods: Command,       chars: "\x14n\x14" }
-  - { key: Comma,    mods: Command,       command: { program: "/usr/local/bin/code", args: ["--new-window", ".config/alacritty/alacritty.yml", ".config/zellij/config.yaml"] } }
+  - { key: Comma,    mods: Command,       command: { program: "/usr/local/bin/code", args: ["--new-window", ".config/", ".config/alacritty/alacritty.yml", ".config/zellij/config.yaml", ".config/fish/config.fish"] } }
   - { key: LBracket, mods: Command|Shift, chars: "\x14k\x14" }
   - { key: RBracket, mods: Command|Shift, chars: "\x14l\x14" }
