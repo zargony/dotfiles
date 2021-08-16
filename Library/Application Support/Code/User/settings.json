@@ -48,6 +48,12 @@
         "editor.tabSize": 4,
         "editor.wordWrapColumn": 99
     },
+    "[tf]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "modifications",
+        "editor.tabSize": 2,
+    },
     "[toml]": {
         "editor.formatOnSave": true,
         "editor.formatOnSaveMode": "modifications",
@@ -67,10 +73,16 @@
     "gitProjectManager.searchInsideProjects": false,
     "gitProjectManager.storeRepositoriesBetweenSessions": true,
 
+    "rust-analyzer.cargo.allFeatures": true,
+    // "rust-analyzer.checkOnSave.enable": false,
     // "rust-analyzer.inlayHints.chainingHints": false,
     // "rust-analyzer.inlayHints.enable": false,
     // "rust-analyzer.inlayHints.parameterHints": false,
+    // "rust-analyzer.inlayHints.smallerHints": false,
     // "rust-analyzer.inlayHints.typeHints": false,
+
+    "telemetry.enableCrashReporter": true,
+    "telemetry.enableTelemetry": false,
 
     "todohighlight.keywords": [
         "TODO",
@@ -98,8 +110,10 @@
     "trailing-spaces.deleteModifiedLinesOnly": true,
     "trailing-spaces.trimOnSave": true,
 
-    "vscode-kubernetes.helm-path": "/usr/local/bin/helm",
-    "vscode-kubernetes.kubectl-path": "/usr/local/bin/kubectl",
+    "vs-kubernetes": {
+        "vs-kubernetes.kubectl-path": "/usr/local/bin/kubectl",
+        "vs-kubernetes.helm-path": "/usr/local/bin/helm",
+    },
 
     "vsicons.dontShowNewVersionMessage": true,
 }
