@@ -113,8 +113,8 @@
     "trailing-spaces.trimOnSave": true,
 
     "vs-kubernetes": {
-        "vs-kubernetes.kubectl-path": "/usr/local/bin/kubectl",
-        "vs-kubernetes.helm-path": "/usr/local/bin/helm",
+        "vs-kubernetes.kubectl-path": "/opt/homebrew/bin/kubectl",
+        "vs-kubernetes.helm-path": "/opt/homebrew/bin/helm",
     },
 
     "vsicons.dontShowNewVersionMessage": true,

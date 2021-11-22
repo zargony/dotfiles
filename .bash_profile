@@ -18,4 +18,4 @@ alias l='ls -la'
 [[ -f $HOME/.cargo/env ]] && source $HOME/.cargo/env
 
 # Bash-completion
-[[ -f /usr/local/etc/bash_completion ]] && source /usr/local/etc/bash_completion
+[[ -f /opt/homebrew/etc/bash_completion ]] && source /opt/homebrew/etc/bash_completion

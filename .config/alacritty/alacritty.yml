@@ -105,12 +105,12 @@ selection: {}
 live_config_reload: true
 
 shell:
-  program: /usr/local/bin/zellij
-  args: ["options", "--default-shell", "/usr/local/bin/fish"]
+  program: /opt/homebrew/bin/zellij
+  args: ["options", "--no-pane-frames", "--default-shell", "/opt/homebrew/bin/fish"]
 
 key_bindings:
   - { key: N,        mods: Command,       action: SpawnNewInstance }
   - { key: T,        mods: Command,       chars: "\x14n\x14" }
-  - { key: Comma,    mods: Command,       command: { program: "/usr/local/bin/code", args: ["--new-window", ".config/", ".config/alacritty/alacritty.yml", ".config/zellij/config.yaml", ".config/fish/config.fish"] } }
+  - { key: Comma,    mods: Command,       command: { program: "/opt/homebrew/bin/code", args: ["--new-window", ".config/", ".config/alacritty/alacritty.yml", ".config/zellij/config.yaml", ".config/fish/config.fish"] } }
   - { key: LBracket, mods: Command|Shift, chars: "\x14k\x14" }
   - { key: RBracket, mods: Command|Shift, chars: "\x14l\x14" }
