@@ -31,6 +31,28 @@ font:
 draw_bold_text_with_bright_colors: false
 
 schemes:
+  monokai-pro: &monokaipro
+    primary:
+      background: "#2d2a2e"
+      foreground: "#fcfcfa"
+    normal:
+      black: "#403e41"
+      red: "#ff6188"
+      green: "#a9dc76"
+      yellow: "#ffd866"
+      blue: "#fc9867"
+      magenta: "#ab9df2"
+      cyan: "#78dce8"
+      white: "#fcfcfa"
+    bright:
+      black: "#727072"
+      red: "#ff6188"
+      green: "#a9dc76"
+      yellow: "#ffd866"
+      blue: "#fc9867"
+      magenta: "#ab9df2"
+      cyan: "#78dce8"
+      white: "#fcfcfa"
   dark: &dark
     primary:
       background: "0x141414"
