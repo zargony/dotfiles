@@ -1,6 +1,6 @@
 [alias]
 ci-check = "check --workspace --all-targets --all-features"
-ci-clippy = "clippy --workspace --all-targets --all-features" # -- -Dwarnings -Drust-2018-idioms -Adeprecated
+ci-clippy = "clippy --workspace --all-targets --all-features" # -- --deny warnings --allow deprecated
 ci-fmt = "fmt --workspace -- --check"
 ci-test = "test --workspace --all-targets --all-features"
 
