@@ -1,6 +1,6 @@
 [user]
 	name = Andreas Neuhaus
-	email = zargony@zargony.com
+	email = git@zargony.com
 [core]
 	attributesfile = ~/.gitattributes
 	excludesfile = ~/.gitignore
