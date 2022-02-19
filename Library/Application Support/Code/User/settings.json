@@ -32,12 +32,12 @@
     "window.closeWhenEmpty": true,
     "window.newWindowDimensions": "inherit",
     "window.restoreWindows": "all",
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Bearded Theme Light",
     "workbench.fontAliasing": "auto",
-    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.iconTheme": "file-icons",
     "workbench.settings.editor": "json",
-    "workbench.preferredDarkColorTheme": "Monokai Pro",
-    "workbench.preferredLightColorTheme": "Default Light+",
+    "workbench.preferredDarkColorTheme": "Bearded Theme Anthracite",
+    "workbench.preferredLightColorTheme": "Bearded Theme Light",
 
     "[json]": {
         "editor.formatOnSave": true,
