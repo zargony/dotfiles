@@ -1,5 +1,6 @@
 {
     "diffEditor.ignoreTrimWhitespace": false,
+    "editor.accessibilitySupport": "off",
     "editor.bracketPairColorization.enabled": true,
     "editor.dragAndDrop": false,
     "editor.fontFamily": "Iosevka Slab",
@@ -75,7 +76,7 @@
     "gitProjectManager.searchInsideProjects": false,
     "gitProjectManager.storeRepositoriesBetweenSessions": true,
 
-    "rust-analyzer.cargo.allFeatures": true,
+    // "rust-analyzer.cargo.allFeatures": true,
     // "rust-analyzer.checkOnSave.enable": false,
     // "rust-analyzer.inlayHints.chainingHints": false,
     // "rust-analyzer.inlayHints.enable": false,
