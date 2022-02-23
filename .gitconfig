@@ -1,6 +1,7 @@
 [user]
 	name = Andreas Neuhaus
 	email = git@zargony.com
+	signingkey = 25E77B1E7152AC2A
 [core]
 	attributesfile = ~/.gitattributes
 	excludesfile = ~/.gitignore
@@ -15,7 +16,11 @@
 [init]
 	defaultBranch = main
 [commit]
-	#gpgsign = true
+	gpgsign = true
+[tag]
+	gpgsign = true
+[log]
+	showSignature = true
 [pull]
 	rebase = true
 [rebase]
