@@ -6,15 +6,10 @@
 	excludesfile = ~/.gitignore
 	precomposeunicode = true
 	quotepath = false
-[protocol]
-	version = 2
 [credential]
 	helper = osxkeychain
-[color]
-	ui = auto
 [alias]
 	br = branch
-	ci = commit
 	co = checkout
 	st = status
 [init]
@@ -30,8 +25,13 @@
 [pack]
 	threads = 0
 [gc]
-	autoDetach = false
+	autodetach = false
 [diff]
 	compactionHeuristic = true
 [diff "utf16diff"]
 	textconv = iconv -f utf-16 -t utf-8
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
