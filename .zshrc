@@ -18,7 +18,7 @@ alias cta="cargo fmt --all -- --check && cargo clippy --workspace --all-targets 
 [[ -x /opt/homebrew/bin/sccache ]] && export RUSTC_WRAPPER=/opt/homebrew/bin/sccache
 
 # Starship prompt - https://starship.rs/
-# [[ -x /opt/homebrew/bin/starship ]] && eval "$(/opt/homebrew/bin/starship init zsh)"
+[[ -x /opt/homebrew/bin/starship ]] && eval "$(/opt/homebrew/bin/starship init zsh)"
 
 # Homebrew completions
 [[ -d /opt/homebrew/completions/zsh ]] && fpath=(/opt/homebrew/completions/zsh $fpath)
