@@ -27,17 +27,17 @@
         "**/vendor": true
     },
     "search.smartCase": true,
-    "terminal.external.osxExec": "Alacritty.app",
+    "terminal.external.osxExec": "Warp.app",
     "terminal.integrated.fontSize": 14,
     "window.autoDetectColorScheme": true,
     "window.closeWhenEmpty": true,
     "window.newWindowDimensions": "inherit",
     "window.restoreWindows": "all",
-    "workbench.colorTheme": "Bearded Theme Light",
+    "workbench.colorTheme": "Bearded Theme Monokai Metallian",
     "workbench.fontAliasing": "auto",
     "workbench.iconTheme": "file-icons",
     "workbench.settings.editor": "json",
-    "workbench.preferredDarkColorTheme": "Bearded Theme Anthracite",
+    "workbench.preferredDarkColorTheme": "Bearded Theme Monokai Metallian",
     "workbench.preferredLightColorTheme": "Bearded Theme Light",
 
     "[json]": {
@@ -93,21 +93,21 @@
         "NOTE",
         {
             "text": "FIXME",
-            "backgroundColor": "rgb(223, 80, 32)",
-            "overviewRulerColor": "rgb(223, 80, 32)",
+            "backgroundColor": "#d05020",
+            "overviewRulerColor": "#d05020",
             },
         {
             "text": "XXX",
-            "backgroundColor": "rgb(223, 32, 80)",
-            "overviewRulerColor": "rgb(223, 32, 80)",
+            "backgroundColor": "#d02050",
+            "overviewRulerColor": "#d02050",
         }
     ],
     "todohighlight.defaultStyle": {
         "color": "#eee",
-        "backgroundColor": "rgb(223, 175, 32)",
-        "overviewRulerColor": "rgb(223, 175, 32)",
+        "backgroundColor": "#d0a020",
+        "overviewRulerColor": "#d0a020",
         "border": "none",
-        "borderRadius": "2px"
+        "borderRadius": "3px"
     },
 
     "trailing-spaces.deleteModifiedLinesOnly": true,
