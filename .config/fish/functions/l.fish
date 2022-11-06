@@ -1,3 +1,3 @@
 function l --wraps ls --description 'list files'
-    ls -la $argv
+    exa --color=auto --color-scale -la $argv
 end

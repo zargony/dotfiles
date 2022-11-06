@@ -12,10 +12,12 @@ export LESS='-i -m -R'
 export PATH=$HOME/.local/bin:$PATH
 
 # Useful aliases
-alias l='ls -la'
+alias k='kubectl'
+alias ksh='kubectl run -i -t --rm --image=alpine --restart=Never shell'
+alias l='exa --color=auto --color-scale -la'
+
+# Homebrew
+[[ -d /opt/homebrew/bin ]] && export PATH=/opt/homebrew/bin:$PATH
 
 # Rust - https://www.rustup.rs/
-[[ -f $HOME/.cargo/env ]] && source $HOME/.cargo/env
-
-# Bash-completion
-[[ -f /opt/homebrew/etc/bash_completion ]] && source /opt/homebrew/etc/bash_completion
+[[ -d $HOME/.cargo/bin ]] && export PATH=$HOME/.cargo/bin:$PATH
