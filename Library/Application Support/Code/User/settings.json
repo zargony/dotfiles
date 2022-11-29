@@ -13,6 +13,10 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.openEditors.visible": 0,
+    "git.defaultCloneDirectory": "~/Projects",
+    "git.mergeEditor": true,
+    "git.suggestSmartCommit": false,
+    "git.supportCancellation": true,
     "redhat.telemetry.enabled": false,
     "search.exclude": {
         "**/target": true,
@@ -25,12 +29,15 @@
     "window.autoDetectColorScheme": true,
     "window.closeWhenEmpty": true,
     "window.newWindowDimensions": "inherit",
-    "workbench.colorTheme": "VLight",
+    "workbench.colorCustomizations": {
+        "editorInlayHint.background": "#eee2",
+    },
+    "workbench.colorTheme": "Eva Light",
     "workbench.fontAliasing": "auto",
     "workbench.iconTheme": "file-icons",
     "workbench.settings.editor": "json",
-    "workbench.preferredDarkColorTheme": "VDark",
-    "workbench.preferredLightColorTheme": "VLight",
+    "workbench.preferredDarkColorTheme": "Eva Dark",
+    "workbench.preferredLightColorTheme": "Eva Light",
 
     "[json]": {
         "editor.formatOnSave": true,
@@ -64,7 +71,7 @@
 
     "gitProjectManager.baseProjectsFolders": ["~/Projects"],
     "gitProjectManager.displayProjectPath": true,
-    "gitProjectManager.ignoredFolders": ["node_modules", "target", ".sync"],
+    "gitProjectManager.ignoredFolders": ["node_modules", "target"],
     "gitProjectManager.searchInsideProjects": false,
     "gitProjectManager.storeRepositoriesBetweenSessions": true,
 
