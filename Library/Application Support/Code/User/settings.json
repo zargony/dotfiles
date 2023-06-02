@@ -12,7 +12,6 @@
     "editor.rulers": [79, 99],
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "explorer.openEditors.visible": 0,
     "git.defaultCloneDirectory": "~/Projects",
     "git.mergeEditor": true,
     "git.suggestSmartCommit": false,
@@ -30,7 +29,7 @@
     "window.closeWhenEmpty": true,
     "window.newWindowDimensions": "inherit",
     "workbench.colorCustomizations": {
-        "editorInlayHint.background": "#eee2",
+        "editorInlayHint.background": "#aaa2",
     },
     "workbench.colorTheme": "Eva Light",
     "workbench.fontAliasing": "auto",
@@ -59,10 +58,12 @@
     "[toml]": {
         "editor.formatOnSave": true,
         "editor.formatOnSaveMode": "modifications",
+        "editor.tabSize": 2,
     },
     "[yaml]": {
         "editor.formatOnSave": true,
         "editor.formatOnSaveMode": "modifications",
+        "editor.tabSize": 2,
     },
 
     "crates.listPreReleases": true,
@@ -87,6 +88,7 @@
     // "rust-analyzer.inlayHints.chainingHints.enable": false,
     // "rust-analyzer.inlayHints.parameterHints.enable": false,
     // "rust-analyzer.inlayHints.typeHints.enable": false,
+    "rust-analyzer.showUnlinkedFileNotification": false,
 
     "todohighlight.keywords": [
         "TODO",
@@ -110,6 +112,25 @@
         "border": "none",
         "borderRadius": "3px"
     },
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.php",
+        "**/*.rb",
+        "**/*.tf",
+        "**/*.toml",
+        "**/*.txt",
+        "**/*.mdown",
+        "**/*.md",
+        "**/*.rs",
+        "**/*.yaml",
+        "**/*.yml",
+    ],
 
     "trailing-spaces.deleteModifiedLinesOnly": true,
     "trailing-spaces.trimOnSave": true,
