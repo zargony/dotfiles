@@ -14,7 +14,7 @@ export PATH=$HOME/.local/bin:$PATH
 # Useful aliases
 alias k='kubectl'
 alias ksh='kubectl run -i -t --rm --image=alpine --restart=Never shell'
-alias l='exa --color=auto --color-scale -la'
+alias l='eza --color=auto --color-scale -la'
 
 # Homebrew
 [[ -d /opt/homebrew/bin ]] && export PATH=/opt/homebrew/bin:$PATH
