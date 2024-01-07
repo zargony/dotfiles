@@ -7,7 +7,7 @@ alias ksh="kubectl run -i -t --rm --image=alpine --restart=Never shell"
 alias l="eza --color=auto --color-scale -la"
 
 # Homebrew
-[[ -d /opt/homebrew/bin ]] && export PATH=/opt/homebrew/bin:$PATH
+[[ -d /opt/homebrew/bin ]] && export PATH=/opt/homebrew/sbin:/opt/homebrew/bin:$PATH
 
 # Rust - https://www.rustup.rs/
 [[ -d $HOME/.cargo/bin ]] && export PATH=$HOME/.cargo/bin:$PATH

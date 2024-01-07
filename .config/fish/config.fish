@@ -4,7 +4,7 @@ set -gx PATH $HOME/.local/bin /usr/local/sbin /usr/local/bin $PATH
 
 # Homebrew
 if test -d /opt/homebrew/bin
-    set -gx PATH /opt/homebrew/bin $PATH
+    set -gx PATH /opt/homebrew/sbin /opt/homebrew/bin $PATH
 end
 
 # Rust - https://www.rustup.rs/
