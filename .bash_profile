@@ -13,8 +13,8 @@ alias k='kubectl'
 alias ksh='kubectl run -i -t --rm --image=alpine --restart=Never shell'
 alias l='eza --color=auto --color-scale -la'
 
-# Homebrew
-[[ -d /opt/homebrew/bin ]] && export PATH=/opt/homebrew/sbin:/opt/homebrew/bin:$PATH
+# Homebrew -- https://brew.sh/
+[[ -x /opt/homebrew/bin/brew ]] && eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Rust - https://www.rustup.rs/
+# Rust -- https://rustup.rs/
 [[ -d $HOME/.cargo/bin ]] && export PATH=$HOME/.cargo/bin:$PATH
