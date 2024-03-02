@@ -8,9 +8,6 @@ export GREP_OPTIONS='--color=auto'
 export LESS='-i -m -R'
 #export LSCOLORS="gxfxcxdxbxegedabagacad"
 
-# Private local bin path
-export PATH=$HOME/.local/bin:$PATH
-
 # Useful aliases
 alias k='kubectl'
 alias ksh='kubectl run -i -t --rm --image=alpine --restart=Never shell'

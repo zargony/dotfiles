@@ -1,6 +1,6 @@
 set -gx EDITOR vim
 set -gx LANG en_US.UTF-8
-set -gx PATH $HOME/.local/bin /usr/local/sbin /usr/local/bin $PATH
+set -gx PATH /usr/local/sbin /usr/local/bin $PATH
 
 # Homebrew
 if test -d /opt/homebrew/bin
