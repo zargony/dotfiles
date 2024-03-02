@@ -19,3 +19,10 @@ alias l="eza --color=auto --color-scale -la"
 
 # Starship prompt -- https://starship.rs/
 [[ -x /opt/homebrew/bin/starship ]] && eval "$(/opt/homebrew/bin/starship init zsh)"
+
+# Difftastic -- https://github.com/Wilfred/difftastic
+if [ -x /opt/homebrew/bin/difft ]; then
+    # export DFT_DISPLAY=inline
+    # export GIT_EXTERNAL_DIFF=difft
+    export KUBECTL_EXTERNAL_DIFF=difft
+fi

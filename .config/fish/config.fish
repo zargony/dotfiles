@@ -22,3 +22,10 @@ end
 if test -x /opt/homebrew/bin/starship
     /opt/homebrew/bin/starship init fish | source
 end
+
+# Difftastic -- https://github.com/Wilfred/difftastic
+if test -x /opt/homebrew/bin/difft
+    # set -gx DFT_DISPLAY inline
+    # set -gx GIT_EXTERNAL_DIFF difft
+    set -gx KUBECTL_EXTERNAL_DIFF difft
+end
