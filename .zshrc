@@ -1,5 +1,7 @@
 export EDITOR="vim"
+export GREP_OPTIONS="--color=auto"
 export LANG="en_US.UTF-8"
+export LESS="-i -R"
 
 # Useful aliases
 alias k="kubectl"
