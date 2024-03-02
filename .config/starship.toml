@@ -1,8 +1,14 @@
 # See also https://starship.rs/config
 
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
 [cmd_duration]
 min_time = 0
 show_milliseconds = true
 
 [directory]
 fish_style_pwd_dir_length = 1
+
+[line_break]
+disabled = true
