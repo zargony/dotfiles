@@ -3,7 +3,6 @@
 	email = git@zargony.com
 	signingkey = 25E77B1E7152AC2A
 [core]
-	attributesfile = ~/.gitattributes
 	excludesfile = ~/.gitignore
 	precomposeunicode = true
 	quotepath = false
@@ -33,8 +32,6 @@
 	autodetach = false
 [diff]
 	compactionHeuristic = true
-[diff "utf16diff"]
-	textconv = iconv -f utf-16 -t utf-8
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
