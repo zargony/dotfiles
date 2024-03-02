@@ -24,6 +24,8 @@
 	rebase = true
 [rebase]
 	autostash = true
+[rerere]
+	enabled = true
 [push]
 	default = upstream
 [pack]
