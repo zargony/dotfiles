@@ -12,6 +12,10 @@
     "editor.rulers": [79, 99],
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "files.readonlyInclude": {
+        "**/.cargo/registry/src/**/*.rs": true,
+        "**/lib/rustlib/src/rust/library/**/*.rs": true,
+    },
     "git.defaultCloneDirectory": "~/Projects",
     "git.mergeEditor": true,
     "git.suggestSmartCommit": false,
