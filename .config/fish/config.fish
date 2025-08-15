@@ -29,3 +29,8 @@ if test -x /opt/homebrew/bin/difft
     # set -gx GIT_EXTERNAL_DIFF difft
     set -gx KUBECTL_EXTERNAL_DIFF difft
 end
+
+# Krew kubectl plugin manager -- https://krew.sigs.k8s.io/
+if test -x /opt/homebrew/bin/kubectl-krew
+    set -gx PATH $PATH $HOME/.krew/bin
+end
