@@ -72,6 +72,9 @@
 
     "crates.listPreReleases": true,
 
+    "dependi.rust.informPatchUpdates": true,
+    "dependi.rust.unstableFilter": "IncludeIfUnstable",
+
     "gitlens.currentLine.enabled": false,
 
     "gitProjectManager.baseProjectsFolders": ["~/Projects"],
@@ -79,6 +82,8 @@
     "gitProjectManager.ignoredFolders": ["node_modules", "target"],
     "gitProjectManager.searchInsideProjects": false,
     "gitProjectManager.storeRepositoriesBetweenSessions": true,
+
+    "probe-rs-debugger.debuggerExecutable": "~/.cargo/bin/probe-rs",
 
     // "rust-analyzer.cargo.features": "all",
     // "rust-analyzer.cargo.features": [],
@@ -145,5 +150,4 @@
         "vs-kubernetes.helm-path": "/opt/homebrew/bin/helm",
     },
 
-    "vsicons.dontShowNewVersionMessage": true,
 }
