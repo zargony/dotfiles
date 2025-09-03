@@ -6,6 +6,7 @@ export LESS="-i -R"
 # Useful aliases
 alias k="kubectl"
 alias kpsql="kubectl -n core exec deployment/postgres -i -t -- psql -U postgres"
+alias krew="kubectl krew"
 alias ksh="kubectl run -i -t --rm --image=alpine --restart=Never shell"
 alias l="eza --color=auto --color-scale -la"
 
@@ -27,3 +28,8 @@ if [ -x /opt/homebrew/bin/difft ]; then
     # export GIT_EXTERNAL_DIFF=difft
     export KUBECTL_EXTERNAL_DIFF=difft
 fi
+
+# Krew kubectl plugin manager -- https://krew.sigs.k8s.io/
+if [ -x /opt/homebrew/bin/kubectl-krew ]; then
+    export PATH=$PATH:$HOME/.krew/bin
+end
