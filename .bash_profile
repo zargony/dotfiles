@@ -9,7 +9,9 @@ export LESS='-i -R'
 
 # Useful aliases
 alias k='kubectl'
-alias kpsql='kubectl -n core exec deployment/postgres -i -t -- psql -U postgres'
+alias kpsql='kubectl -n core exec statefulset/postgres -i -t -- psql -U postgres'
+alias kpg_dump='kubectl -n core exec statefulset/postgres -i -t -- kpg_dump -U postgres'
+alias kpg_dumpall='kubectl -n core exec statefulset/postgres -i -t -- kpg_dumpall -U postgres'
 alias krew='kubectl krew'
 alias ksh='kubectl run -i -t --rm --image=alpine --restart=Never shell'
 alias l='eza --color=auto --color-scale -la'
