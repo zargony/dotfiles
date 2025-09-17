@@ -38,4 +38,4 @@ fi
 # Krew kubectl plugin manager -- https://krew.sigs.k8s.io/
 if [ -x /opt/homebrew/bin/kubectl-krew ]; then
     export PATH=$PATH:$HOME/.krew/bin
-end
+fi
