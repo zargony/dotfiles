@@ -7,6 +7,15 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+  },
+  "features": {
+    "edit_prediction_provider": "none"
+  },
   "theme": "One Dark",
   "buffer_font_family": "Iosevka Slab",
   "buffer_font_size": 16,
@@ -27,7 +36,7 @@
   "terminal": {
     "line_height": "standard",
     "font_family": "Iosevka Term",
-    "font_size": 16
+    "font_size": 14
   },
   "languages": {
     // "Rust": {},
