@@ -10,36 +10,42 @@
   "agent": {
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
+      "model": "claude-3-5-sonnet-latest",
     },
   },
-  "features": {
-    "edit_prediction_provider": "none"
+  "colorize_brackets": true,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark",
   },
-  "theme": "One Dark",
   "buffer_font_family": "Iosevka Slab",
-  "buffer_font_size": 16,
+  "buffer_font_size": 16.0,
   "buffer_line_height": "standard",
-  "wrap_guides": [80, 99],
+  "buffer_font_weight": 300,
+  "wrap_guides": [79, 99],
   "show_whitespaces": "boundary",
   "inlay_hints": {
     "enabled": true,
-    "show_background": true
+    "show_background": true,
+  },
+  "minimap": {
+    "show": "always",
   },
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "journal": {
-    "hour_format": "hour24"
+    "hour_format": "hour24",
   },
   "terminal": {
     "line_height": "standard",
     "font_family": "Iosevka Term",
-    "font_size": 14
+    "font_size": 14,
   },
   "languages": {
     // "Rust": {},
     // "TOML": {}
-  }
+  },
 }
